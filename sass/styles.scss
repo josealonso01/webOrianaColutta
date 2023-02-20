@@ -1799,7 +1799,7 @@ p {
     position          : relative;
     background-color  : #fff;
     padding-top       : 100px;
-    padding-bottom    : 100px;
+    padding-bottom    : 300px;
     animation         : animate__fadeInDown;
     animation-duration: 2s;
 }
@@ -1860,7 +1860,7 @@ p {
         right bottom;
     background-repeat: no-repeat,
         no-repeat;
-    background-size: 100%,
+    background-size: 150%,
         20%;
     background-blend-mode: soft-light;
 
@@ -1868,19 +1868,75 @@ p {
 
 .portfolio-content {
     padding-top: 200px;
+
+
     .sub-title {
         color: #FFFFFF;
     }
+
     .title {
         color: #FFFFFF;
     }
 }
 
+@media (max-width: 767px) {
+    .portfolio-area {
+        padding-top   : 100px;
+        padding-bottom: 100px;
+        background-size: 250%,
+            40%;
+        background-position: center,
+            left bottom;
+        height: 50px;
+    }
+
+    .portfolio-content {
+        .sub-title {
+            position : relative;
+            font-size: small;
+            bottom   : 210px;
+        }
+
+        .title {
+            position : relative;
+            font-size: small;
+            bottom   : 210px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+    .portfolio-area {
+        background-size: 100%,
+            16%;
+        background-position: center,
+            right bottom;
+        text-align: center;
+        height    : 10px;
+    }
+
+    .portfolio-content {
+        .sub-title {
+            position : relative;
+            font-size: small;
+            bottom   : 210px;
+        }
+
+        .title {
+            position : relative;
+            font-size: small;
+            bottom   : 210px;
+        }
+    }
+}
+
+
+
 /*===========================
        25.SERVICES css 
 ===========================*/
 .services-area {
-    background-color: #f4f6f7;
+    background-color: #FFFFFF;
     padding-top     : 115px;
     padding-bottom  : 120px;
 }
@@ -1949,616 +2005,115 @@ p {
       16.PRICING css 
 ===========================*/
 .pricing-area {
-    background-color: #f4f6f7;
-    padding-top     : 90px;
-    padding-bottom  : 100px;
+    margin-top: 200px;
+
+    .div-image img {
+        margin-right: 25%;
+    }
+
+    .container {
+        text-align      : right;
+        box-sizing      : border-box;
+        position        : relative;
+        border          : 2px solid #DF4F89;
+        background-color: #fff;
+        padding-top     : 200px;
+        padding-bottom  : 200px;
+
+    }
+
+    .section-title {
+        margin-left: -35px;
+
+        .title {
+            font-style : normal;
+            font-weight: 700;
+            font-size  : 40px;
+            line-height: 53px;
+            text-align : right;
+        }
+
+        .text {
+            color      : #000;
+            font-style : normal;
+            font-weight: 700;
+            text-align : right;
+            font-size  : 20px;
+            line-height: 41px;
+        }
+    }
 }
 
-.pricing-2 {
-    background-color: #fff;
-}
-
-.pricing-style-one {
-    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    -moz-box-shadow   : 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    box-shadow        : 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    padding           : 24px 20px 38px;
-    border-radius     : 8px;
-    position          : relative;
-    overflow          : hidden;
-    background-color  : #fff;
-}
-
-.pricing-style-one .pricing-icon img {
-    width: 200px;
-}
-
-.pricing-style-one .pricing-header .sub-title {
-    font-size  : 20px;
-    font-weight: 600;
-    line-height: 25px;
-    color      : #121212;
-    position   : relative;
-    margin-top : 24px;
-}
-
-.pricing-style-one .pricing-header .month {
-    font-size  : 20px;
-    font-weight: 300;
-    line-height: 25px;
-    color      : #6c6c6c;
-    margin-top : 3px;
-}
-
-.pricing-style-one .pricing-header .month .price {
-    font-size  : 36px;
-    font-weight: 600;
-    line-height: 45px;
-    color      : #121212;
-    margin-top : 8px;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .pricing-style-one .pricing-header .month .price {
-        font-size  : 24px;
+@media only screen and (min-width: 576px) and (max-width: 770px) {
+    .pricing-area {
         margin-top : 32px;
         line-height: 30px;
+        position   : relative;
+        left       : 20px;
+
+        .div-image img{
+            margin-bottom: 75px;
+             margin-right: 32%;
+        }
+
+        .section-title {
+            .title {
+                font-weight: 700;
+                font-size  : 25px;
+                line-height: 53px;
+                text-align : center;
+            }
+
+            .text {
+                color      : #000;
+                font-style : normal;
+                font-weight: 700;
+                text-align : right;
+                font-size  : 15px;
+                line-height: 41px;
+                text-align : center;
+            }
+        }
+
+    }
+
+
+}
+
+
+@media (max-width: 771px) {
+    .pricing-area {
+        margin-top : 32px;
+        line-height: 30px;
+        position   : relative;
+        right      : -5px;
+
+        .div-image {
+            margin-bottom: 75px;
+        }
+
+        .section-title {
+            .title {
+                font-weight: 700;
+                font-size  : 25px;
+                line-height: 53px;
+                text-align : center;
+            }
+
+            .text {
+                color      : #000;
+                font-style : normal;
+                font-weight: 700;
+                text-align : right;
+                font-size  : 15px;
+                line-height: 41px;
+                text-align : center;
+            }
+        }
     }
 }
 
-.pricing-style-one .pricing-list {
-    margin-top: 24px;
-}
 
-.pricing-style-one .pricing-list ul li {
-    font-size  : 16px;
-    line-height: 24px;
-    color      : #121212;
-    margin-top : 16px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .pricing-style-one .pricing-list ul li {
-        font-size : 14px;
-        margin-top: 12px;
-    }
-}
-
-@media (max-width: 767px) {
-    .pricing-style-one .pricing-list ul li {
-        font-size : 14px;
-        margin-top: 12px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .pricing-style-one .pricing-list ul li {
-        font-size : 16px;
-        margin-top: 16px;
-    }
-}
-
-.pricing-style-one .pricing-list ul li i {
-    color       : #38f9d7;
-    margin-right: 8px;
-}
-
-.pricing-style-one .pricing-btn {
-    margin-top: 31px;
-}
-
-.pricing-style-two {
-    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    -moz-box-shadow   : 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    box-shadow        : 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    padding           : 24px 20px;
-    border-radius     : 8px;
-    position          : relative;
-    overflow          : hidden;
-    background-color  : #fff;
-}
-
-.pricing-style-two .pricing-icon img {
-    width: 112px;
-}
-
-.pricing-style-two .pricing-header {
-    margin-top: 24px;
-}
-
-.pricing-style-two .pricing-header .sub-title {
-    font-size  : 20px;
-    font-weight: 600;
-    line-height: 25px;
-    color      : #121212;
-}
-
-.pricing-style-two .pricing-header .price {
-    display    : block;
-    font-size  : 64px;
-    font-weight: 600;
-    line-height: 80px;
-    color      : #121212;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .pricing-style-two .pricing-header .price {
-        font-size : 50px;
-        margin-top: 16px;
-    }
-}
-
-@media (max-width: 767px) {
-    .pricing-style-two .pricing-header .price {
-        font-size : 50px;
-        margin-top: 16px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .pricing-style-two .pricing-header .price {
-        font-size : 64px;
-        margin-top: 32px;
-    }
-}
-
-.pricing-style-two .pricing-header .year {
-    font-size  : 20px;
-    font-weight: 500;
-    line-height: 25px;
-    color      : #6c6c6c;
-    margin-top : -10px;
-}
-
-.pricing-style-two .pricing-list {
-    margin-top: 33px;
-}
-
-.pricing-style-two .pricing-list ul li {
-    font-size  : 16px;
-    line-height: 24px;
-    color      : #121212;
-    margin-top : 16px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .pricing-style-two .pricing-list ul li {
-        font-size : 14px;
-        margin-top: 12px;
-    }
-}
-
-@media (max-width: 767px) {
-    .pricing-style-two .pricing-list ul li {
-        font-size : 14px;
-        margin-top: 12px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .pricing-style-two .pricing-list ul li {
-        font-size : 16px;
-        margin-top: 16px;
-    }
-}
-
-.pricing-style-two .pricing-list ul li i {
-    color       : #38f9d7;
-    margin-right: 8px;
-}
-
-.pricing-style-two .pricing-btn {
-    margin-top: 26px;
-}
-
-/*===========================
-        25.ERROR css 
-===========================*/
-.call-action-area {
-    padding-top   : 50px;
-    padding-bottom: 100px;
-}
-
-.call-action-area .call-action-content .action-title {
-    font-size  : 32px;
-    font-weight: 600;
-    line-height: 40px;
-    color      : #121212;
-}
-
-@media (max-width: 767px) {
-    .call-action-area .call-action-content .action-title {
-        font-size  : 24px;
-        line-height: 35px;
-    }
-}
-
-.call-action-area .call-action-content .text {
-    font-size  : 16px;
-    color      : #121212;
-    line-height: 27px;
-    margin-top : 16px;
-}
-
-.call-action-area .call-action-form {
-    position: relative;
-}
-
-.call-action-area .call-action-form input {
-    width        : 100%;
-    height       : 60px;
-    border       : 1px solid #cbced1;
-    background   : none;
-    padding      : 0 25px;
-    border-radius: 50px;
-}
-
-@media (max-width: 767px) {
-    .call-action-area .call-action-form input {
-        height: 50px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .call-action-area .call-action-form input {
-        height: 60px;
-    }
-}
-
-.call-action-area .call-action-form input::placeholder {
-    opacity: 1;
-    color  : #a4a4a4;
-}
-
-.call-action-area .call-action-form input::-moz-placeholder {
-    opacity: 1;
-    color  : #a4a4a4;
-}
-
-.call-action-area .call-action-form input::-moz-placeholder {
-    opacity: 1;
-    color  : #a4a4a4;
-}
-
-.call-action-area .call-action-form input::-webkit-input-placeholder {
-    opacity: 1;
-    color  : #a4a4a4;
-}
-
-.call-action-area .call-action-form input:focus {
-    border-color: #38f9d7;
-}
-
-.call-action-area .call-action-form .action-btn {
-    position: absolute;
-    top     : 5px;
-    right   : 5px;
-}
-
-@media (max-width: 767px) {
-    .call-action-area .call-action-form .action-btn .main-btn {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .call-action-area .call-action-form .action-btn .main-btn {
-        width: auto;
-    }
-}
-
-@media (max-width: 767px) {
-    .call-action-area .call-action-form .action-btn {
-        position  : relative;
-        top       : 0;
-        right     : 0;
-        margin-top: 10px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .call-action-area .call-action-form .action-btn {
-        position  : absolute;
-        top       : 8px;
-        right     : 8px;
-        margin-top: 0;
-    }
-}
-
-.call-action-2 {
-    background-color: #f4f6f7;
-}
-
-.call-action-3 {
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-}
-
-.call-action-3 .call-action-content .action-title {
-    color: #fff;
-}
-
-.call-action-3 .call-action-content .text {
-    color: #fff;
-}
-
-.call-action-3 .call-action-form input {
-    color       : #fff;
-    border-color: #fff;
-}
-
-.call-action-3 .call-action-form input::placeholder {
-    opacity: 1;
-    color  : #fff;
-}
-
-.call-action-3 .call-action-form input::-moz-placeholder {
-    opacity: 1;
-    color  : #fff;
-}
-
-.call-action-3 .call-action-form input::-moz-placeholder {
-    opacity: 1;
-    color  : #fff;
-}
-
-.call-action-3 .call-action-form input::-webkit-input-placeholder {
-    opacity: 1;
-    color  : #fff;
-}
-
-.call-action-3 .call-action-form input:focus {
-    border-color: #fff;
-}
-
-.call-action-3 .call-action-form .action-btn .main-btn {
-    background-color: #fff;
-    color           : #38f9d7;
-    border-color    : #fff;
-}
-
-.call-action-3 .call-action-form .action-btn .main-btn:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    color           : #fff;
-}
-
-/*===========================
-        28.ERROR css 
-===========================*/
-.testimonial-area {
-    padding-top     : 100px;
-    padding-bottom  : 70px;
-    background-color: #f4f6f7;
-}
-
-.testimonial-2 {
-    background-color: #fff;
-}
-
-.single-testimonial {
-    background-color  : #fff;
-    padding           : 30px;
-    -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow   : 0 0px 20px 0 rgba(0, 0, 0, 0.1);
-    box-shadow        : 0 0px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.single-testimonial .testimonial-image img {
-    width        : 90px;
-    border-radius: 50%;
-    display      : inline-block;
-}
-
-.single-testimonial .testimonial-content {
-    padding-top: 25px;
-}
-
-.single-testimonial .testimonial-content .text {
-    font-size     : 16px;
-    line-height   : 24px;
-    color         : #121212;
-    border-bottom : 1px solid #cbced1;
-    padding-bottom: 24px;
-}
-
-.single-testimonial .testimonial-content .author-name {
-    font-size  : 18px;
-    font-weight: 600;
-    color      : #121212;
-    margin-top : 24px;
-}
-
-.single-testimonial .testimonial-content .sub-title {
-    font-size  : 14px;
-    line-height: 24px;
-    color      : #a4a4a4;
-}
-
-.testimonial-active-2 .slick-dots,
-.testimonial-active .slick-dots {
-    text-align: center;
-}
-
-.testimonial-active-2 .slick-dots li,
-.testimonial-active .slick-dots li {
-    display: inline-block;
-    margin : 0 3px;
-}
-
-.testimonial-active-2 .slick-dots li button,
-.testimonial-active .slick-dots li button {
-    font-size       : 0;
-    width           : 12px;
-    height          : 12px;
-    border-radius   : 50%;
-    background-color: #cbced1;
-    border          : 0;
-    cursor          : pointer;
-}
-
-.testimonial-active-2 .slick-dots li.slick-active button,
-.testimonial-active .slick-dots li.slick-active button {
-    background-color: #38f9d7;
-}
-
-.single-testimonial-4 {
-    border          : 2px solid #cbced1;
-    padding         : 25px 30px;
-    border-radius   : 8px;
-    background-color: #fff;
-}
-
-.single-testimonial-4 .testimonial-author .author-image img {
-    width        : 80px;
-    border-radius: 50%;
-}
-
-.single-testimonial-4 .testimonial-author .author-name {
-    padding-left: 20px;
-}
-
-@media (max-width: 767px) {
-    .single-testimonial-4 .testimonial-author .author-name {
-        padding-left: 0;
-        padding-top : 15px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .single-testimonial-4 .testimonial-author .author-name {
-        padding-left: 20px;
-        padding-top : 0;
-    }
-}
-
-.single-testimonial-4 .testimonial-author .author-name .name {
-    font-size  : 18px;
-    font-weight: 600;
-    line-height: 24px;
-    color      : #121212;
-}
-
-.single-testimonial-4 .testimonial-author .author-name .sub-title {
-    font-size  : 14px;
-    line-height: 24px;
-    color      : #a4a4a4;
-}
-
-.single-testimonial-4 .testimonial-text {
-    margin-top: 25px;
-}
-
-.single-testimonial-4 .testimonial-text .text {
-    font-size  : 14px;
-    line-height: 24px;
-    color      : #121212;
-}
-
-.testimonial-active-4 .slick-dots {
-    text-align: center;
-    margin-top: 25px;
-}
-
-.testimonial-active-4 .slick-dots li {
-    display: inline-block;
-    margin : 0 3px;
-}
-
-.testimonial-active-4 .slick-dots li button {
-    font-size       : 0;
-    width           : 12px;
-    height          : 12px;
-    border-radius   : 50%;
-    background-color: #cbced1;
-    border          : 0;
-    cursor          : pointer;
-}
-
-.testimonial-active-4 .slick-dots li.slick-active button {
-    background-color: #38f9d7;
-}
-
-/*===========================
-       25.CLIENT css 
-===========================*/
-/*===== Client Logo Two =====*/
-.client-logo-area {
-    padding-top   : 80px;
-    padding-bottom: 80px;
-}
-
-.client-logo-2 {
-    background-color: #f4f6f7;
-}
-
-/*===========================
-       21.BLOG css 
-===========================*/
-.blog-area {
-    padding-top   : 115px;
-    padding-bottom: 120px;
-}
-
-.single-blog .blog-image img {
-    width        : 100%;
-    border-radius: 8px;
-}
-
-.single-blog .blog-content {
-    padding-top: 16px;
-}
-
-.single-blog .blog-content .blog-title a {
-    font-size         : 20px;
-    font-weight       : 600;
-    line-height       : 25px;
-    color             : #121212;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition   : all 0.3s ease-out 0s;
-    -ms-transition    : all 0.3s ease-out 0s;
-    -o-transition     : all 0.3s ease-out 0s;
-    transition        : all 0.3s ease-out 0s;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .single-blog .blog-content .blog-title a {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 767px) {
-    .single-blog .blog-content .blog-title a {
-        font-size: 18px;
-    }
-}
-
-.single-blog .blog-content .blog-title a:hover {
-    color: #38f9d7;
-}
-
-.single-blog .blog-content span {
-    font-size   : 14px;
-    line-height : 20px;
-    color       : #6c6c6c;
-    margin-top  : 8px;
-    margin-right: 10px;
-}
-
-.single-blog .blog-content .text {
-    font-size  : 14px;
-    line-height: 20px;
-    color      : #121212;
-    margin-top : 16px;
-}
-
-.single-blog .blog-content .more {
-    text-transform: uppercase;
-    font-size     : 16px;
-    font-weight   : 700;
-    color         : #38f9d7;
-    margin-top    : 29px;
-}
 
 /*===========================
       20.CONTACT css 
