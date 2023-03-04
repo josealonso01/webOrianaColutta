@@ -626,10 +626,11 @@ p {
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
 .navbar-area {
-  background: rgba(255, 255, 255, 0.28);
+  background: #FFFFFF;
   box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.1);
   padding: 10px 0;
   position: absolute;
+  height: 119px;
   top: 0;
   left: 0;
   width: 100%;
@@ -658,7 +659,7 @@ p {
 .navbar-area .navbar .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: #DF4F89;
   margin: 5px 0;
   display: block;
   position: relative;
@@ -1019,9 +1020,11 @@ p {
 
 .navbar-area .navbar .navbar-btn .menu-bar {
   font-size: 32px;
+  top: 5px;
   position: relative;
   overflow: hidden;
-  color: #fff;
+  color: #DF4F89;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1121,20 +1124,14 @@ p {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #E889AF;
-  height: 100%;
-  width: 300px;
+  background: #FCFBFB;
+  height: 630px;
+  width: 380px;
   padding-top: 80px;
   z-index: 9999;
   -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
   transform: translateX(100%);
   -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 
 .sidebar-content .sidebar-logo img {
@@ -1158,27 +1155,27 @@ p {
 
 .sidebar-right .sidebar-close .close {
   font-size: 24px;
-  color: #fff; }
+  color: #DF4F89;
+  padding-right: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
 
 .sidebar-right .sidebar-content .sidebar-menu {
   margin-top: 40px; }
 
 .sidebar-right .sidebar-content .sidebar-menu ul li a {
   font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 27px;
-  font-weight: 700;
-  padding: 11px 16px;
-  color: #fff;
+  text-align: center;
+  margin-left: 100px;
+  padding: 22px 10px;
+  color: #DF4F89;
   text-transform: uppercase;
   position: relative;
-  border-radius: 5px;
   -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  border-bottom: 1px solid #cbced1;
+  border-bottom: 1px solid #DF4F89;
   display: block; }
 
 .sidebar-right .sidebar-content .sidebar-menu ul li a:hover {
@@ -1203,21 +1200,22 @@ p {
   background-color: #fff; }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-  height: 860px; }
+  height: 518px; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-    height: 600px; } }
+    height: 518px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-    height: 600px; } }
+    height: 518px; } }
 
 @media (max-width: 767px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-    height: 600px; } }
+    height: 518px; } }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
+  padding-top: 10px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -1460,9 +1458,13 @@ p {
   position: relative;
   background-color: #fff;
   padding-top: 100px;
-  padding-bottom: 300px;
+  padding-bottom: 175px;
   animation: animate__fadeInDown;
-  animation-duration: 2s; }
+  animation-duration: 2s;
+  background-image: url("/assets/images/vector-2-2.png");
+  background-position: initial;
+  background-size: 100% 750px;
+  background-repeat: no-repeat; }
 
 .about-area .section-title .title {
   font-style: normal;
@@ -1482,6 +1484,7 @@ p {
     line-height: 38px; } }
 
 .about-area .section-title .text {
+  padding: 115px;
   font-size: 20px;
   float: right;
   line-height: 25px;
@@ -1500,22 +1503,21 @@ p {
 .portfolio-area {
   padding-top: 90px;
   width: 100%;
-  height: 700px;
+  height: 281px;
   text-align: center;
   padding-bottom: 150px;
   background: rgba(232, 137, 175, 0.6);
-  background-image: url("../assets/images/WarmNeutralFemaleBusinessAesthetic_NullaContent1.png"), url("../assets/images/logo transp-08 2.png");
-  background-position: center, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 150%, 20%;
+  background-image: url("../assets/images/WarmNeutralFemaleBusinessAesthetic_NullaContent1.png");
+  background-position: center, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
   background-blend-mode: soft-light; }
 
-.portfolio-content {
-  padding-top: 200px; }
-  .portfolio-content .sub-title {
-    color: #FFFFFF; }
-  .portfolio-content .title {
-    color: #FFFFFF; }
+.portfolio-content .sub-title {
+  color: #FFFFFF; }
+
+.portfolio-content .title {
+  color: #FFFFFF; }
 
 @media (max-width: 767px) {
   .portfolio-area {
@@ -1526,12 +1528,10 @@ p {
     height: 50px; }
   .portfolio-content .sub-title {
     position: relative;
-    font-size: small;
-    bottom: 210px; }
+    font-size: small; }
   .portfolio-content .title {
     position: relative;
-    font-size: small;
-    bottom: 210px; } }
+    font-size: small; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .portfolio-area {
@@ -1541,12 +1541,10 @@ p {
     height: 10px; }
   .portfolio-content .sub-title {
     position: relative;
-    font-size: small;
-    bottom: 210px; }
+    font-size: small; }
   .portfolio-content .title {
     position: relative;
-    font-size: small;
-    bottom: 210px; } }
+    font-size: small; } }
 
 /*===========================
        25.SERVICES css 
@@ -1926,24 +1924,23 @@ p {
   font-size: 20px;
   color: #121212;
   position: fixed;
-  right: 20px;
+  right: 40px;
   bottom: 20px;
   width: 45px;
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #38f9d7;
+  background-color: #DF4F89;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  display: none; }
+  transition: all 0.3s ease-out 0s; }
 
 .back-to-top:hover {
   color: #121212;
-  background-color: #38f9d7; }
+  background-color: rgba(232, 137, 175, 0.6); }
 
 /*# sourceMappingURL=style.css.map */
