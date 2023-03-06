@@ -635,10 +635,10 @@ p {
 
 .navbar-area .navbar-brand img {
   max-width: 150px;
-  left: 50px;
+  left: -50px;
   top: 19px;
   position: absolute;
-  width: 222px;
+  width: auto;
   height: 82px;
 }
 
@@ -661,7 +661,8 @@ p {
 
 .navbar-area .navbar .navbar-toggler .toggler-icon {
   width: 30px;
-  height: 2px;
+  height: auto;
+  top: 48px;
   background-color: #DF4F89;
   margin: 5px 0;
   display: block;
@@ -1030,7 +1031,7 @@ p {
 
 .navbar-area .navbar .navbar-btn .menu-bar {
   font-size: 32px;
-  top: 5px;
+  top: 19px;
   position: relative;
   overflow: hidden;
   color: #DF4F89;
