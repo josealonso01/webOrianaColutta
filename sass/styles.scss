@@ -797,11 +797,8 @@ p {
 
 .navbar-area .navbar-brand img {
     max-width: 150px;
-    left     : -50px;
-    top      : 19px;
-    position : absolute;
-    width    : auto;
-    height   : 82px;
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -823,8 +820,7 @@ p {
 
 .navbar-area .navbar .navbar-toggler .toggler-icon {
     width             : 30px;
-    height            : auto;
-    top: 48px;
+    height            : 2px;
     background-color  : #DF4F89;
     margin            : 5px 0;
     display           : block;
@@ -1247,7 +1243,7 @@ p {
 
 .navbar-area .navbar .navbar-btn .menu-bar {
     font-size         : 32px;
-    top               : 19px;
+    top               : 5px;
     position          : relative;
     overflow          : hidden;
     color             : #DF4F89;
@@ -2429,5 +2425,3 @@ p {
     color           : #121212;
     background-color: rgba(232, 137, 175, 0.6);
 }
-
-/*# sourceMappingURL=style.css.map */
