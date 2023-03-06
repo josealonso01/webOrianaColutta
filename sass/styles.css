@@ -1698,7 +1698,7 @@ p {
 .pricing-area {
   position: relative;
   margin-top: 112px;
-  padding-top: 283px;
+  padding-top: 560px;
   padding-bottom: 310px;
   -webkit-animation: animate__fadeInDown;
           animation: animate__fadeInDown;
@@ -1708,50 +1708,6 @@ p {
   background-position: initial;
   background-size: 100%;
   background-repeat: no-repeat;
-}
-
-.pricing-title {
-  position: absolute;
-  width: 466px;
-  height: 48px;
-  left: 487px;
-  top: 0;
-  text-align: center;
-  color: #3E3B39;
-}
-
-.pricing-title h1 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 48px;
-}
-
-.pricing-title h2 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 48px;
-}
-
-.pricing-images {
-  padding: 40px;
-}
-
-@media (max-width: 767px) {
-  .pricing-area .pricing-title h1 {
-    font-size: 22px;
-    line-height: 32px;
-  }
-  .pricing-area .pricing-title h2 {
-    font-size: 22px;
-    line-height: 32px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .pricing-area .pricing-title .title {
-    font-size: 28px;
-    line-height: 38px;
-  }
 }
 
 /*===========================
@@ -1839,35 +1795,11 @@ p {
 }
 
 .footer-area .footer-copyright .social li a:hover {
-  color: #38f9d7;
+  color: #DF4F89;
 }
 
 .footer-area.footer-dark {
   background-color: #121212;
-}
-
-.footer-area.footer-dark .footer-widget .footer-title {
-  color: #fff;
-}
-
-.footer-area.footer-dark .footer-widget .footer-link ul li a {
-  color: #fff;
-}
-
-.footer-area.footer-dark .footer-widget .footer-link ul li a:hover {
-  color: #38f9d7;
-}
-
-.footer-area.footer-dark .footer-copyright .copyright .text {
-  color: #fff;
-}
-
-.footer-area.footer-dark .footer-copyright .social li a {
-  color: #fff;
-}
-
-.footer-area.footer-dark .footer-copyright .social li a:hover {
-  color: #38f9d7;
 }
 
 /*===== BACK TO TOP =====*/
