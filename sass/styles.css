@@ -1478,6 +1478,9 @@ p {
   background-size: 100% 750px;
   background-repeat: no-repeat; }
 
+.about-images:hover {
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25)); }
+
 .about-area .section-title .title {
   font-style: normal;
   font-weight: 500;
