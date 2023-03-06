@@ -797,7 +797,8 @@ p {
 
 .navbar-area .navbar-brand img {
     max-width: 150px;
-
+    position : relative;
+    left     : -90px;
 
 }
 
@@ -805,11 +806,23 @@ p {
     .navbar-area {
         padding: 10px 0;
     }
+
+    .navbar-area .navbar-brand img {
+        max-width: 150px;
+        position : relative;
+        left     : -20px;
+    }
 }
 
 @media (max-width: 767px) {
     .navbar-area {
         padding: 10px 0;
+    }
+
+    .navbar-area .navbar-brand img {
+        max-width: 150px;
+        position : relative;
+        left     : -10px;
     }
 }
 
