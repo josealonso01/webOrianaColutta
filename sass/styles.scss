@@ -797,8 +797,11 @@ p {
 
 .navbar-area .navbar-brand img {
     max-width: 150px;
-
-
+    left     : 50px;
+    top      : 19px;
+    position : absolute;
+    width    : 222px;
+    height   : 82px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1799,7 +1802,7 @@ p {
     position           : relative;
     background-color   : #fff;
     padding-top        : 100px;
-        padding-bottom: 175px;
+    padding-bottom     : 175px;
     animation          : animate__fadeInDown;
     animation-duration : 2s;
     background-image   : url('../assets/images/vector-2-2.png');
