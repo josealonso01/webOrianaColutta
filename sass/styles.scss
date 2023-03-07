@@ -1963,6 +1963,117 @@ p {
     background-repeat  : no-repeat;
 }
 
+.pricing-title {
+    margin-top : -590px;
+    height     : 48px;
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 36px;
+    line-height: 48px;
+    color      : #3E3B39;
+}
+
+.pricing-subtitle {
+
+    height     : 48px;
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 36px;
+    line-height: 48px;
+    color      : #4B4845;
+}
+
+.brandNames {
+    padding-top: 45px;
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 27px;
+
+    text-align          : center;
+    text-decoration-line: underline;
+
+    color: #4B4845;
+}
+
+.maskgroup {
+    margin-top: 50px;
+
+    .pricing-images {
+        padding: 25px;
+    }
+}
+
+.imageBox {
+    position: relative;
+    float   : left;
+}
+
+.imageBox .hoverImg {
+    position: absolute;
+    left    : 0;
+    top     : 0;
+    display : none;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .pricing-title {
+
+        top: -7px;
+
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 700;
+        font-size  : 20px;
+        line-height: 27px;
+        color      : #3E3B39;
+    }
+
+    .pricing-subtitle {
+        top: 1852px;
+
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 20px;
+        line-height: 27px;
+        color      : #4B4845;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+    .pricing-title {
+
+        top: -7px;
+
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 700;
+        font-size  : 20px;
+        line-height: 27px;
+        color      : #3E3B39;
+    }
+
+    .pricing-subtitle {
+        top: 1852px;
+
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 20px;
+        line-height: 27px;
+        color      : #4B4845;
+    }
+}
+
 
 /*===========================
       20.CONTACT css 
