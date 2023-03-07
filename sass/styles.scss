@@ -1,7 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@font-face {
+    font-family: "Caviar Dreams";
+    src        : url("../assets/fonts/CaviarDreams.ttf");
+}
+
+@font-face {
+    font-family: "Futura";
+    src        : url("../assets/fonts/Futura.ttc");
+}
 
 body {
-    font-family     : "Poppins", sans-serif;
+    font-family     : "Futura";
     font-weight     : normal;
     font-style      : normal;
     background-color: #F1EFED;
@@ -46,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Futura", sans-serif;
     font-weight: 600;
     color      : #121212;
     margin     : 0px;
@@ -1850,11 +1858,17 @@ p {
 
 .about-area .section-title .text {
     padding    : 115px;
-    font-size  : 20px;
     float      : right;
     line-height: 25px;
     color      : #121212;
     margin-top : 8px;
+    font-family: 'Caviar Dreams';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 21px;
+    line-height: 26px;
+
+    color: #1A1A1A;
 
     img {
         padding-left: 75%;
@@ -1889,10 +1903,26 @@ p {
 .portfolio-content {
 
     .sub-title {
+        font-family: 'Caviar Dreams';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 32px;
+        line-height: 37px;
+        text-align : center;
+
         color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     .title {
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 40px;
+        line-height: 53px;
+        text-align : center;
+
         color: #FFFFFF;
     }
 }
@@ -1952,9 +1982,9 @@ p {
 
 .pricing-area {
     position           : relative;
-    margin-top         : 112px;
+    margin-top         : 190px;
     padding-top        : 560px;
-    padding-bottom     : 310px;
+    padding-bottom     : 130px;
     animation          : animate__fadeInDown;
     animation-duration : 2s;
     background-image   : url('../assets/images/Vector\ 2.png');
@@ -1975,7 +2005,12 @@ p {
 }
 
 .pricing-subtitle {
+    /* identical to box height */
 
+    text-align          : center;
+    text-decoration-line: underline;
+
+    color      : #4B4845;
     height     : 48px;
     font-family: 'Futura';
     font-style : normal;
@@ -2040,11 +2075,11 @@ p {
 }
 
 .imageBox:hover .hoverImg {
-    background: #DF4F89;
+    background   : #DF4F89;
     border-radius: 90px;
-    border    : 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display   : block;
+    border       : 1px solid #000000;
+    box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display      : block;
 }
 
 @media (max-width: 767px) {
@@ -2248,6 +2283,7 @@ p {
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
+    display           : none;
     font-size         : 20px;
     color             : #121212;
     position          : fixed;
@@ -2257,7 +2293,7 @@ p {
     height            : 45px;
     line-height       : 45px;
     border-radius     : 50%;
-    background-color  : #DF4F89;
+    background-color  : rgb(254, 136, 183);
     text-align        : center;
     z-index           : 99;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -2269,5 +2305,5 @@ p {
 
 .back-to-top:hover {
     color           : #121212;
-    background-color: rgba(232, 137, 175, 0.6);
+    background-color: #DF4F89;
 }
