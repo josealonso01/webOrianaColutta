@@ -1595,6 +1595,22 @@ p {
   line-height: 48px;
   color: #4B4845; }
 
+.pricing-trust {
+  padding-top: 200px;
+  height: 48px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #3E3B39; }
+
+.trust-img {
+  padding-top: 120px; }
+  .trust-img img {
+    margin-inline-end: 150px;
+    margin-inline-start: 150px; }
+
 .brandNames {
   padding-top: 45px;
   font-family: 'Futura';
