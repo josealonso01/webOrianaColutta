@@ -1606,7 +1606,7 @@ p {
   color: #3E3B39; }
 
 .trust-img {
-  padding-top: 120px; }
+  padding-top: 50px; }
   .trust-img img {
     margin-inline-end: 150px;
     margin-inline-start: 150px; }
@@ -1638,6 +1638,10 @@ p {
   display: none; }
 
 .imageBox:hover .hoverImg {
+  background: #DF4F89;
+  border-radius: 90px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: block; }
 
 @media (max-width: 767px) {
@@ -1656,7 +1660,14 @@ p {
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-    color: #4B4845; } }
+    color: #4B4845; }
+  .trust-img {
+    padding-top: 120px; }
+    .trust-img img {
+      margin-inline-end: 50px;
+      margin-inline-start: 50px;
+      width: 225px;
+      height: auto; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .pricing-title {
@@ -1674,7 +1685,14 @@ p {
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-    color: #4B4845; } }
+    color: #4B4845; }
+  .trust-img {
+    padding-top: 120px; }
+    .trust-img img {
+      margin-inline-end: 50px;
+      margin-inline-start: 50px;
+      width: 225px;
+      height: auto; } }
 
 /*===========================
       20.CONTACT css 
@@ -1683,49 +1701,71 @@ p {
   padding-top: 95px;
   padding-bottom: 100px; }
 
+.btnContact {
+  width: 450px;
+  height: 80px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FE88B7;
+  border-style: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25), inset 0px 4px 40px #FE88B7;
+  border-radius: 60px;
+  margin-inline-end: 50px;
+  margin-inline-start: 50px; }
+
+.contactText {
+  padding-bottom: 80px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+  text-align: center;
+  color: #3E3B39; }
+
+@media (max-width: 767px) {
+  .btnContact {
+    margin: 10px;
+    width: 219px;
+    height: 50px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px; } }
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+  .btnContact {
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px; } }
+
+.redes-area {
+  padding-top: 90px; }
+  .redes-area .icons {
+    margin: 25px; }
+
+.redesIcons {
+  padding-bottom: 40px; }
+
 /*===========================
     22.HEADER css 
 ===========================*/
-.footer-area .footer-widget {
-  padding-top: 90px;
-  padding-bottom: 120px; }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-area .footer-widget {
-    padding-top: 70px;
-    padding-bottom: 100px; } }
-
-@media (max-width: 767px) {
-  .footer-area .footer-widget {
-    padding-top: 50px;
-    padding-bottom: 80px; } }
-
-.footer-area .footer-widget .footer-title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 18px;
-  color: #6c6c6c; }
-
-.footer-area .footer-widget .footer-link {
-  margin-top: 32px; }
-
-.footer-area .footer-widget .footer-link ul {
-  margin-top: 8px; }
-
-.footer-area .footer-widget .footer-link ul li a {
-  font-size: 16px;
-  line-height: 24px;
-  color: #121212;
-  margin-top: 16px;
-  font-weight: 500;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
-
-.footer-area .footer-widget .footer-link ul li a:hover {
-  color: #38f9d7; }
+.footer-area {
+  background-image: url("../assets/images/Vector 1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 .footer-area .footer-copyright {
   padding-top: 13px;
