@@ -129,6 +129,7 @@ p {
     margin-top : 24px;
 }
 
+
 /*===== All Preloader Style =====*/
 .preloader {
     /* Body Overlay */
@@ -881,7 +882,8 @@ p {
         top               : 108%;
         left              : 0;
         width             : 100%;
-        background-color  : #FE88B7;
+        background-color  : #FFFFFF;
+        box-shadow        : 0px 4px 40px 3px rgba(0, 0, 0, 0.1);
         z-index           : 8;
         padding           : 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -896,7 +898,8 @@ p {
         top               : 108%;
         left              : 0;
         width             : 100%;
-        background-color  : #FE88B7;
+        background-color  : #FFFFFF;
+        box-shadow        : 0px 8px 30px rgba(0, 0, 0, 0.5);
         z-index           : 8;
         padding           : 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -927,11 +930,16 @@ p {
 }
 
 .navbar-area .navbar .navbar-nav .nav-item a {
-    font-size         : 16px;
-    line-height       : 24px;
-    font-weight       : 700;
     padding           : 11px 16px;
-    color             : #fff;
+    font-family       : 'Futura';
+    font-style        : normal;
+    font-weight       : 500;
+    font-size         : 20px;
+    line-height       : 27px;
+    text-align        : right;
+    margin-left       : 124px;
+    border-bottom     : 1px solid #DF4F89;
+    color             : #DF4F89;
     text-transform    : uppercase;
     position          : relative;
     border-radius     : 5px;
@@ -945,31 +953,51 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area .navbar .navbar-nav .nav-item a {
-        color      : #fff;
-        visibility : visible;
-        font-style : normal;
-        font-weight: 500;
-        font-size  : 20px;
-        line-height: 27px;
-        padding    : 10px 0;
-        display    : block;
-        border     : 0;
-        margin     : 0;
+        visibility: visible;
+        padding   : 11px 16px;
+
+        padding: 10px 0;
+        display: block;
+        border : 0;
+        margin : 0;
+
+        p {
+            font-family  : 'Futura';
+            font-style   : normal;
+            font-weight  : 500;
+            margin-left  : 19px;
+            font-size    : 20px;
+            line-height  : 27px;
+            text-align   : right;
+            margin-left  : 200px;
+            border-bottom: 1px solid #DF4F89;
+            color        : #DF4F89;
+        }
     }
 }
 
 @media (max-width: 767px) {
     .navbar-area .navbar .navbar-nav .nav-item a {
-        visibility : visible;
-        color      : #fff;
-        font-style : normal;
-        font-weight: 500;
-        font-size  : 20px;
-        line-height: 27px;
-        padding    : 10px 0;
-        display    : block;
-        border     : 0;
-        margin     : 0;
+        visibility: visible;
+        padding   : 11px 16px;
+
+        padding: 10px 0;
+        display: block;
+        border : 0;
+        margin : 0;
+
+        p {
+            font-family  : 'Futura';
+            font-style   : normal;
+            font-weight  : 500;
+            margin-left  : 19px;
+            font-size    : 20px;
+            line-height  : 27px;
+            text-align   : right;
+            margin-left  : 45px;
+            border-bottom: 1px solid #DF4F89;
+            color        : #DF4F89;
+        }
     }
 }
 
@@ -1495,19 +1523,19 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        height: 518px;
+        height: 454px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        height: 518px;
+        height: 454px;
     }
 }
 
 @media (max-width: 767px) {
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        height: 518px;
+        height: 454px;
     }
 }
 
@@ -1564,10 +1592,9 @@ p {
 
 .slider-area .bd-example .carousel .carousel-control-prev,
 .slider-area .bd-example .carousel .carousel-control-next {
-    top               : 50%;
+    top               : 60%;
     width             : auto;
     height            : auto;
-    font-size         : 70px;
     color             : #fff;
     -webkit-transform : translateY(-50%);
     -moz-transform    : translateY(-50%);
@@ -1881,7 +1908,6 @@ p {
     }
 }
 
-
 /*===========================
       19.portfolio css 
 ===========================*/
@@ -2159,7 +2185,6 @@ p {
       20.CONTACT css 
 ===========================*/
 .contact-area {
-    padding-top   : 95px;
     padding-bottom: 100px;
 }
 
@@ -2245,40 +2270,18 @@ p {
 }
 
 .footer-area .footer-copyright {
+    margin        : auto;
     padding-top   : 13px;
     padding-bottom: 23px;
+    text-align    : center;
 }
 
 .footer-area .footer-copyright .copyright .text {
-    color: #121212;
+    color     : #121212;
+    text-align: center;
+
 }
 
-.footer-area .footer-copyright .social li {
-    display     : inline-block;
-    margin-right: 10px;
-}
-
-.footer-area .footer-copyright .social li:last-child {
-    margin-right: 0;
-}
-
-.footer-area .footer-copyright .social li a {
-    font-size         : 24px;
-    color             : #6c6c6c;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition   : all 0.3s ease-out 0s;
-    -ms-transition    : all 0.3s ease-out 0s;
-    -o-transition     : all 0.3s ease-out 0s;
-    transition        : all 0.3s ease-out 0s;
-}
-
-.footer-area .footer-copyright .social li a:hover {
-    color: #DF4F89;
-}
-
-.footer-area.footer-dark {
-    background-color: #121212;
-}
 
 
 /*===== BACK TO TOP =====*/
