@@ -1906,72 +1906,49 @@ p {
 }
 
 @media (max-width: 767px) {
-    .about-area {
-        background-image: url('../assets/images/Vector\ 21.png'),
-            url('../assets/images/Vector\ 2.png');
-        background-position:
-            left top, right bottom;
-        background-repeat: no-repeat,
-            no-repeat;
-        background-size: 100% 45%;
-        margin-bottom  : 45px;
+    .about-area .section-title p {
+        font-family: 'Caviar Dreams';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 16px;
+        line-height: 19px;
+        text-align : center;
+
+        color: #FFFFFF;
+    }
+
+    .about-area .imagesGroup {
+        display    : flex;
+        width      : 456px;
+        height     : 480px;
+        overflow-x : scroll;
+        flex-wrap  : wrap;
+        margin-top : 50px;
+        padding-top: 120px;
     }
 }
-
-.about-area .section-title p {
-    font-family: 'Caviar Dreams';
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 16px;
-    line-height: 19px;
-    text-align : center;
-
-    color: #FFFFFF;
-}
-
-.about-area .imagesGroup {
-    display    : flex;
-    width      : 318px;
-    height     : 402px;
-    overflow-x : scroll;
-    flex-wrap  : wrap;
-    margin-top : 50px;
-    padding-top: 120px;
-}
-
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .about-area {
-        background-image: url('../assets/images/Vector\ 21.png'),
-            url('../assets/images/Vector\ 2.png');
-        background-position:
-            left top, right bottom;
-        background-repeat: no-repeat,
-            no-repeat;
-        background-size: 100% 45%;
-        margin-bottom  : 45px;
+    .about-area .section-title p {
+        font-family: 'Caviar Dreams';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 16px;
+        line-height: 19px;
+        text-align : center;
+
+        color: #FFFFFF;
     }
-}
 
-.about-area .section-title p {
-    font-family: 'Caviar Dreams';
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 16px;
-    line-height: 19px;
-    text-align : center;
-
-    color: #FFFFFF;
-}
-
-.about-area .imagesGroup {
-    display    : flex;
-    width      : 318px;
-    height     : 402px;
-    overflow-x : scroll;
-    flex-wrap  : wrap;
-    margin-top : 50px;
-    padding-top: 120px;
+    .about-area .imagesGroup {
+        display    : flex;
+        width      : 456px;
+        height     : 480px;
+        overflow-x : scroll;
+        flex-wrap  : wrap;
+        margin-top : 50px;
+        padding-top: 120px;
+    }
 }
 
 
@@ -2057,8 +2034,8 @@ p {
     .portfolio-content {
         .sub-title {
             font-family: 'Caviar Dreams';
-            position : relative;
-            font-size: small;
+            position   : relative;
+            font-size  : small;
         }
 
         .title {
@@ -2177,7 +2154,51 @@ p {
     display      : block;
 }
 
+.pricing-title {
+
+    top: -7px;
+
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 20px;
+    line-height: 27px;
+    color      : #3E3B39;
+}
+
+.pricing-subtitle {
+    top: 1852px;
+
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 27px;
+    color      : #4B4845;
+}
+
+.trust-img {
+    padding-top: 120px;
+
+    img {
+        margin-inline-end  : 50px;
+        margin-inline-start: 50px;
+        width              : 225px;
+        height             : auto;
+    }
+}
+
 @media (max-width: 767px) {
+    .pricing-area {
+        background-image: url('../assets/images/Vector\ 2.png'), url('../assets/images/Vector\ 11.png');
+        background-position: top,
+            center;
+        background-repeat: no-repeat,
+            no-repeat;
+        background-size: 100% 10%;
+        margin-top     : 100px;
+    }
+
     .pricing-title {
 
         top: -7px;
@@ -2212,6 +2233,7 @@ p {
         }
     }
 }
+
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
     .pricing-title {
@@ -2264,7 +2286,7 @@ p {
     font-style  : normal;
     font-weight : 500;
     font-size   : 24px;
-    line-height : 32px;
+    line-height: 70px;
     text-align  : center;
     color       : #FFFFFF;
     background  : #FE88B7;
@@ -2299,7 +2321,7 @@ p {
         font-style : normal;
         font-weight: 500;
         font-size  : 14px;
-        line-height: 19px;
+        line-height: 45px;
     }
 }
 
@@ -2313,7 +2335,7 @@ p {
         font-style : normal;
         font-weight: 500;
         font-size  : 14px;
-        line-height: 19px;
+        line-height: 45px;
     }
 }
 
@@ -2333,8 +2355,8 @@ p {
     22.HEADER css 
 ===========================*/
 .footer-area {
-    background-image : url('../assets/images/Vector\ 1.png');
-    background-size  : 100% 100%;
+    background-image : url('../assets/images/Vector\ 4.png');
+    background-size  : 100% 38%;
     background-repeat: no-repeat;
 }
 
