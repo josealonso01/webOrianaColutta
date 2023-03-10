@@ -1543,6 +1543,9 @@ p {
     padding-left: 75%; }
 
 @media (max-width: 767px) {
+  .about-area {
+    background-image: url("../assets/images/Vector 21.png");
+    background-size: 100% 45%; }
   .about-area .section-title p {
     font-family: 'Caviar Dreams';
     font-style: normal;
@@ -1550,7 +1553,15 @@ p {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF; } }
+    color: #FFFFFF; }
+  .about-area .imagesGroup {
+    display: flex;
+    width: 456px;
+    height: 480px;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 120px; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .section-title p {
@@ -1560,7 +1571,15 @@ p {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF; } }
+    color: #FFFFFF; }
+  .about-area .imagesGroup {
+    display: flex;
+    width: 456px;
+    height: 480px;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 120px; } }
 
 /*===========================
       19.portfolio css 
