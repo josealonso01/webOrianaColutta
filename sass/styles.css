@@ -1556,8 +1556,8 @@ p {
     color: #FFFFFF; }
   .about-area .imagesGroup {
     display: flex;
-    width: 456px;
-    height: 480px;
+    width: 318px;
+    height: 402px;
     overflow-x: scroll;
     flex-wrap: wrap;
     margin-top: 50px;

@@ -1923,14 +1923,15 @@ p {
     }
 
     .about-area .imagesGroup {
-        display    : flex;
-        width      : 456px;
-        height     : 480px;
-        overflow-x : scroll;
-        flex-wrap  : wrap;
-        margin-top : 50px;
-        padding-top: 120px;
+            display   : flex;
+    width     : 318px;
+    height    : 402px;
+    overflow-x: scroll;
+    flex-wrap : wrap;
+    margin-top: 50px;
+    padding-top: 120px;
     }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
