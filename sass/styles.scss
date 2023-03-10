@@ -1906,8 +1906,13 @@ p {
 }
 
 @media (max-width: 767px) {
-    .about-area{
-        background-image: url('../assets/images/Vector\ 21.png');
+    .about-area {
+        background-image: url('../assets/images/Vector\ 21.png'),
+            url('../assets/images/Vector\ 2.png');
+        background-position:
+            left top, right bottom;
+        background-repeat: no-repeat,
+            no-repeat;
         background-size: 100% 45%;
     }
 
@@ -1923,13 +1928,13 @@ p {
     }
 
     .about-area .imagesGroup {
-            display   : flex;
-    width     : 318px;
-    height    : 402px;
-    overflow-x: scroll;
-    flex-wrap : wrap;
-    margin-top: 50px;
-    padding-top: 120px;
+        display    : flex;
+        width      : 318px;
+        height     : 402px;
+        overflow-x : scroll;
+        flex-wrap  : wrap;
+        margin-top : 50px;
+        padding-top: 120px;
     }
 
 }
