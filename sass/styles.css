@@ -1711,8 +1711,8 @@ p {
 
 .maskgroup {
   margin-top: 50px; }
-  .maskgroup .pricing-images {
-    padding: 25px; }
+  .maskgroup img {
+    padding: 15px; }
 
 .imageBox {
   position: relative;
