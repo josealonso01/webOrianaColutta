@@ -1463,13 +1463,13 @@ p {
 }
 
 .sidebar-right .sidebar-close .close {
-    font-size    : 24px;
-    position     : relative;
-    left         : 19px;
-    background-color   : #DF4F89;
-    background-size: 100%;
-    border-radius: 20px;
-    color        : #FFFFFF;
+    font-size       : 24px;
+    position        : relative;
+    left            : 19px;
+    background-color: #DF4F89;
+    background-size : 100%;
+    border-radius   : 20px;
+    color           : #FFFFFF;
 }
 
 .sidebar-right .sidebar-content .sidebar-menu {
@@ -1919,13 +1919,12 @@ p {
     }
 
     .about-area .imagesGroup {
-        display    : flex;
-        width      : 456px;
-        height     : 480px;
-        overflow-x : scroll;
-        flex-wrap  : wrap;
-        margin-top : 50px;
-        padding-top: 120px;
+        display        : -webkit-box;
+        overflow-x     : scroll;
+        margin-top     : 50px;
+        padding-top    : 120px;
+        justify-content: space-around;
+        justify-items  : center;
     }
 }
 
@@ -2129,8 +2128,9 @@ p {
 
 .maskgroup {
     margin-top: 50px;
+
     img {
-            padding: 15px;
+        padding: 15px;
     }
 }
 
