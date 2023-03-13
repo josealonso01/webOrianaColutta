@@ -1695,6 +1695,7 @@ p {
   visibility: hidden; }
 
 .pricing-title {
+  margin-left: 70px;
   margin-top: -590px;
   height: 48px;
   font-family: 'Futura';
@@ -1743,6 +1744,8 @@ p {
   text-align: center;
   text-decoration-line: underline;
   color: #4B4845; }
+  .brandNames u {
+    visibility: hidden; }
 
 .maskgroup {
   margin-top: 50px; }
@@ -1822,7 +1825,18 @@ p {
       margin-inline-end: 50px;
       margin-inline-start: 50px;
       width: 225px;
-      height: auto; } }
+      height: auto; }
+  .brandNames {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4B4845; }
+    .brandNames u {
+      visibility: visible; }
+  .imageBox .hoverImg {
+    visibility: hidden; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .pricing-title {
