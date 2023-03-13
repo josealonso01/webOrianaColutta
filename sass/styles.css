@@ -12,14 +12,16 @@ body {
   font-style: normal;
   background-color: #F1EFED;
   color: #121212;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100%; }
 
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 100%; }
 
 img {
   max-width: 100%; }
