@@ -51,26 +51,22 @@ $(function () {
     });
   });
 
-var el = document.getElementById('imagesGroup'); // Or whatever method to get the element
+  var el = document.getElementById('imagesGroup'); // Or whatever method to get the element
+  el.scrollTop = 0;
+  el.scrollLeft = 0;
+  el.scrollTop += 0;
+  el.scrollLeft += 320;
 
-// To set the scroll
-el.scrollTop = 0;
-el.scrollLeft = 0;
-
-// To increment the scroll
-el.scrollTop += 100;
-el.scrollLeft += 300;
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById('navbarEight').style.top = '70px';
-  } else {
-    document.getElementById('navbarEight').style.top = '-1000px';
-  }
-  prevScrollpos = currentScrollPos;
-};
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById('navbarEight').style.top = '70px';
+    } else {
+      document.getElementById('navbarEight').style.top = '-1000px';
+    }
+    prevScrollpos = currentScrollPos;
+  };
 
   //===== Sidebar
 

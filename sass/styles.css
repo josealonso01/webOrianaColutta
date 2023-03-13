@@ -718,6 +718,8 @@ p {
   top: -7px; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-area .navbar .navbar-toggler .toggler-icon {
+    top: -8px; }
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
     left: 0;
@@ -728,6 +730,8 @@ p {
     padding: 10px 16px; } }
 
 @media (max-width: 767px) {
+  .navbar-area .navbar .navbar-toggler .toggler-icon {
+    top: -8px; }
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
     top: 106%;
