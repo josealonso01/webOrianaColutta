@@ -6,6 +6,10 @@
   font-family: "Futura";
   src: url("../assets/fonts/Futura.ttc"); }
 
+html,
+body {
+  overflow-x: hidden; }
+
 body {
   font-family: "Futura";
   font-weight: normal;
@@ -1807,7 +1811,6 @@ p {
   .logoPricing {
     visibility: visible; }
   .pricing-title {
-    top: -7px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 700;

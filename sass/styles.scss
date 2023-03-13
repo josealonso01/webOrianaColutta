@@ -8,6 +8,12 @@
     src        : url("../assets/fonts/Futura.ttc");
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+
 body {
     font-family     : "Futura";
     font-weight     : normal;
@@ -15,7 +21,7 @@ body {
     background-color: #F1EFED;
     color           : #121212;
     overflow-x      : hidden;
-    width: 100%;
+    width           : 100%;
 }
 
 * {
@@ -824,10 +830,12 @@ p {
     }
 }
 
+
 @media (max-width: 767px) {
     body {
         width: 100%;
     }
+
     .navbar-area {
         width  : 100%;
         height : 77px;
@@ -2254,9 +2262,6 @@ p {
     }
 
     .pricing-title {
-
-        top: -7px;
-
         font-family: 'Futura';
         font-style : normal;
         font-weight: 700;
