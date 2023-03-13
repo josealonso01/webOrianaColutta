@@ -664,6 +664,8 @@ p {
     left: -20px; } }
 
 @media (max-width: 767px) {
+  body {
+    width: 100%; }
   .navbar-area {
     width: 100%;
     height: 77px;
