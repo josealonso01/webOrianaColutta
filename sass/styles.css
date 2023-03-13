@@ -1241,14 +1241,14 @@ p {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
     background-image: url("../assets/images/Frame 279.png");
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
     height: 454px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
     background-image: url("../assets/images/Frame 279.png");
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
     height: 454px; } }
 
@@ -1256,7 +1256,7 @@ p {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
     background-image: url("../assets/images/ori 13 1.png");
     height: 379px;
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%; } }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
