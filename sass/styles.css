@@ -1820,12 +1820,22 @@ p {
     line-height: 27px;
     color: #4B4845; }
   .trust-img {
-    padding-top: 120px; }
+    padding-top: 18px; }
     .trust-img img {
       margin-inline-end: 50px;
       margin-inline-start: 50px;
       width: 225px;
       height: auto; }
+  .pricing-trust {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #3E3B39; }
   .brandNames {
     font-family: 'Futura';
     font-style: normal;
@@ -1887,13 +1897,24 @@ p {
   margin-inline-start: 50px; }
 
 .contactText {
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 39px;
   font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
-  /* identical to box height */
+  text-align: center;
+  color: #3E3B39; }
+
+.contactTextRedes {
+  padding-top: 70px;
+  padding-bottom: 39px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
   text-align: center;
   color: #3E3B39; }
 
@@ -1901,12 +1922,39 @@ p {
   .btnContact {
     margin: 10px;
     width: 219px;
-    height: 50px;
+    height: 38px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 45px; } }
+    line-height: 45px; }
+  .contactText {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #3E3B39; }
+  .contactTextRedes {
+    visibility: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .contactTextOri {
+    padding-top: 0px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #3E3B39;
+    margin-bottom: 140px; }
+  .redes-area {
+    padding-top: 0px; }
+  .redesIcons .icons {
+    width: 56.75px;
+    height: 56.75px; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .btnContact {
@@ -1919,10 +1967,8 @@ p {
     font-size: 14px;
     line-height: 45px; } }
 
-.redes-area {
-  padding-top: 90px; }
-  .redes-area .icons {
-    margin: 25px; }
+.redes-area .icons {
+  margin: 25px; }
 
 .redesIcons {
   padding-bottom: 40px; }
