@@ -718,9 +718,9 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-area .navbar .navbar-collapse {
-    position: absolute;
-    top: 108%;
+    position: fixed;
     left: 0;
+    height: 301px;
     width: 100%;
     background-color: rgba(232, 137, 175, 0.34);
     z-index: 8;
@@ -729,22 +729,11 @@ p {
 @media (max-width: 767px) {
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
-    top: 108%;
-    left: 0;
+    top: 106%;
+    height: 301px;
     width: 100%;
     background-color: rgba(232, 137, 175, 0.34);
-    z-index: 8;
-    padding: 10px 16px; }
-  .navbar-area .navbar .navbar-nav {
-    margin-right: 24px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .navbar-area .navbar .navbar-nav {
-    margin-right: 0; } }
-
-@media (max-width: 767px) {
-  .navbar-area .navbar .navbar-nav {
-    margin-right: 0; } }
+    z-index: 8; } }
 
 .navbar-area .navbar .navbar-nav .nav-item {
   visibility: hidden;
@@ -793,21 +782,18 @@ p {
 @media (max-width: 767px) {
   .navbar-area .navbar .navbar-nav .nav-item a {
     visibility: visible;
-    padding: 11px 16px;
-    padding: 10px 0;
-    display: block;
-    border: 0;
-    margin: 0; }
-    .navbar-area .navbar .navbar-nav .nav-item a p {
-      font-family: 'Futura';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 27px;
-      text-align: right;
-      margin-left: 192px;
-      border-bottom: 1px solid #FDFDFD;
-      color: #FDFDFD; } }
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 0px;
+    margin-left: 120px;
+    font-size: 15px;
+    line-height: 27px;
+    display: flex;
+    text-align: right;
+    color: #FDFDFD;
+    border-bottom: 1px solid #F9F9F9;
+    flex-direction: row-reverse; } }
 
 .navbar-area .navbar .navbar-nav .nav-item a::before {
   position: absolute;
@@ -1559,9 +1545,10 @@ p {
 @media (max-width: 767px) {
   .about-area {
     background-image: url("../assets/images/Vector 21.png"), url("../assets/images/Vector 2 (1).png");
-    background-size: 100% 40%, contain;
+    background-size: 100% 30%, contain;
     background-position: top, 1px 810px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    padding-top: 50px; }
   .about-area .section-title p {
     font-family: 'Caviar Dreams';
     font-style: normal;
