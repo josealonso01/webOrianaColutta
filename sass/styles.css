@@ -1555,6 +1555,11 @@ p {
     padding-left: 75%; }
 
 @media (max-width: 767px) {
+  .about-area {
+    background-image: url("../assets/images/Vector 21.png"), url("../assets/images/Vector 2 (1).png");
+    background-size: 100% 40%, contain;
+    background-position: top, 1px 810px;
+    background-repeat: no-repeat; }
   .about-area .section-title p {
     font-family: 'Caviar Dreams';
     font-style: normal;
@@ -1626,33 +1631,53 @@ p {
 
 @media (max-width: 767px) {
   .portfolio-area {
-    background-image: url("../assets/images/Warm Neutral Female Business Aesthetic _ Nulla Content 1.png");
+    background-image: url("../assets/images/Coming soon Mobile.png");
+    background-blend-mode: normal;
     padding-top: 150px;
-    padding-bottom: 100px;
     height: 402px; }
   .portfolio-content .sub-title {
     font-family: 'Caviar Dreams';
-    position: relative;
-    font-size: small; }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .portfolio-content .title {
     font-family: 'Futura';
-    position: relative;
-    font-size: small; } }
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 25px;
+    text-align: center;
+    color: #FFFFFF; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .portfolio-area {
-    background-image: url("../assets/images/Warm Neutral Female Business Aesthetic _ Nulla Content 1.png");
+    background-image: url("../assets/images/Coming soon Mobile.png");
+    background-blend-mode: normal;
     padding-top: 150px;
-    padding-bottom: 100px;
     height: 402px; }
   .portfolio-content .sub-title {
     font-family: 'Caviar Dreams';
-    position: relative;
-    font-size: small; }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .portfolio-content .title {
     font-family: 'Futura';
-    position: relative;
-    font-size: small; } }
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 25px;
+    text-align: center;
+    color: #FFFFFF; } }
 
 /*===========================
       16.PRICING css 
@@ -1668,6 +1693,9 @@ p {
   background-position: initial;
   background-size: 100%;
   background-repeat: no-repeat; }
+
+.logoPricing {
+  visibility: hidden; }
 
 .pricing-title {
   margin-top: -590px;
@@ -1769,11 +1797,12 @@ p {
 
 @media (max-width: 767px) {
   .pricing-area {
-    background-image: url("../assets/images/Vector 2.png"), url("../assets/images/Vector 11.png");
-    background-position: top, center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% 10%;
-    margin-top: 100px; }
+    margin-top: 0px;
+    background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png");
+    background-position: 1px -54px, 1px 466px;
+    background-repeat: no-repeat, no-repeat; }
+  .logoPricing {
+    visibility: visible; }
   .pricing-title {
     top: -7px;
     font-family: 'Futura';
@@ -1904,6 +1933,13 @@ p {
 .footer-area .footer-copyright .copyright .text {
   color: #121212;
   text-align: center; }
+
+@media (max-width: 767px) {
+  .footer-area {
+    background-image: url("../assets/images/Vector 4.png");
+    background-size: 456px 254px;
+    background-position: 1px 25px;
+    background-repeat: no-repeat; } }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
