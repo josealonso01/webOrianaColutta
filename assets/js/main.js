@@ -51,6 +51,17 @@ $(function () {
     });
   });
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById('navbarEight').style.top = '70px';
+  } else {
+    document.getElementById('navbarEight').style.top = '-1000px';
+  }
+  prevScrollpos = currentScrollPos;
+};
+
   //===== Sidebar
 
   $('[href="#side-menu-right"], .overlay-right').on(
@@ -102,165 +113,6 @@ $(function () {
   $('.video-popup').magnificPopup({
     type: 'iframe',
     // other options
-  });
-
-  //===== Slick
-
-  $('.testimonial-active').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    speed: 800,
-    arrows: false,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          arrows: false,
-        },
-      },
-    ],
-  });
-
-  //===== Slick
-
-  $('.testimonial-active-2').slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    speed: 800,
-    arrows: false,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          arrows: false,
-        },
-      },
-    ],
-  });
-
-  //===== Slick
-
-  $('.client-active').slick({
-    infinite: true,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    speed: 800,
-    arrows: false,
-    dots: false,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 6,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 5,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 2,
-          arrows: false,
-        },
-      },
-    ],
-  });
-
-  //===== Slick
-
-  $('.testimonial-active-4').slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    speed: 800,
-    arrows: false,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          arrows: false,
-        },
-      },
-    ],
   });
 
   //===== Back to top
