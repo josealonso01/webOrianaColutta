@@ -795,6 +795,10 @@ p {
        3.HEADER css 
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
+.container {
+    max-width: 1440px;
+}
+
 .navbar-area {
     background        : rgba(252, 251, 251, 0.6);
     box-shadow        : 0px 4px 40px 3px rgba(0, 0, 0, 0.1);
@@ -815,7 +819,6 @@ p {
 .navbar-area .navbar-brand img {
     max-width: 150px;
     position : relative;
-    left     : -90px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -826,7 +829,6 @@ p {
     .navbar-area .navbar-brand img {
         max-width: 150px;
         position : relative;
-        left     : -20px;
     }
 }
 
@@ -900,12 +902,14 @@ p {
 
     .navbar-area .navbar .navbar-collapse {
         position        : absolute;
-        left            : 0;
+        left            : 0px;
         height          : 301px;
+        top             : 115px;
         width           : 100%;
         background-color: rgba(232, 137, 175, 0.34);
         z-index         : 8;
         padding         : 10px 16px;
+
     }
 }
 
@@ -958,21 +962,20 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area .navbar .navbar-nav .nav-item a {
-        visibility   : visible;
-        padding      : 11px 16px;
-        padding      : 10px 0;
-        display      : block;
-        border       : 0;
-        margin       : 0;
-        font-family  : 'Futura';
-        font-style   : normal;
-        font-weight  : 500;
-        font-size    : 20px;
-        line-height  : 27px;
-        text-align   : right;
-        margin-left  : 175px;
-        border-bottom: 1px solid #FDFDFD;
-        color        : #FDFDFD;
+        visibility    : visible;
+        font-family   : 'Futura';
+        font-style    : normal;
+        font-weight   : 500;
+        border-radius : 0px;
+        margin-left   : 175px;
+        font-size     : 15px;
+        margin-bottom : 4px;
+        line-height   : 27px;
+        display       : flex;
+        text-align    : right;
+        color         : #FDFDFD;
+        border-bottom : 1px solid #F9F9F9;
+        flex-direction: row-reverse;
 
     }
 }
@@ -1482,14 +1485,13 @@ p {
 }
 
 .overlay-right {
-    position        : fixed;
-    background-color: rgba(0, 0, 0, 0.6);
-    top             : 0;
-    left            : 0;
-    width           : 100%;
-    height          : 100%;
-    display         : none;
-    z-index         : 999;
+    position: fixed;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 100%;
+    display : none;
+    z-index : 999;
 }
 
 .overlay-right.open {
@@ -1846,7 +1848,7 @@ p {
     padding-bottom     : 79px;
     animation          : animate__fadeInDown;
     animation-duration : 2s;
-    background-image   : url('../assets/images/vector-2-2.png');
+    background-image   : url('../assets/images/Vector\ 2\ \(1\).png');
     background-position: initial;
     background-size    : 100% 750px;
     background-repeat  : no-repeat;
@@ -2077,7 +2079,7 @@ p {
 
 .pricing-area {
     position           : relative;
-    margin-top         : 190px;
+    margin-top         : 117px;
     padding-top        : 560px;
     padding-bottom     : 130px;
     animation          : animate__fadeInDown;
@@ -2101,23 +2103,19 @@ p {
     font-weight: 500;
     font-size  : 36px;
     line-height: 48px;
+    text-align : center;
     color      : #3E3B39;
 }
 
 .pricing-subtitle {
-    /* identical to box height */
-
-    text-align          : center;
-    text-decoration-line: underline;
-
-    color      : #4B4845;
-    height     : 48px;
-    font-family: 'Futura';
-    font-style : normal;
-    font-weight: 500;
-    font-size  : 36px;
-    line-height: 48px;
-    color      : #4B4845;
+    color        : #4B4845;
+    height       : 48px;
+    font-family  : 'Futura';
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 36px;
+    line-height  : 48px;
+    margin-bottom: 117px;
 }
 
 .pricing-trust {
@@ -2141,17 +2139,15 @@ p {
 }
 
 .brandNames {
-    padding-top: 45px;
-    font-family: 'Futura';
-    font-style : normal;
-    font-weight: 500;
-    font-size  : 20px;
-    line-height: 27px;
-
-    text-align          : center;
+    padding-top         : 45px;
+    font-family         : 'Futura';
+    font-style          : normal;
+    font-weight         : 500;
+    font-size           : 20px;
+    line-height         : 27px;
     text-decoration-line: underline;
-
-    color: #4B4845;
+    text-align          : revert;
+    color               : #4B4845;
 
     u {
         visibility: hidden;
@@ -2187,39 +2183,7 @@ p {
     display      : block;
 }
 
-.pricing-title {
 
-    top: -7px;
-
-    font-family: 'Futura';
-    font-style : normal;
-    font-weight: 700;
-    font-size  : 20px;
-    line-height: 27px;
-    color      : #3E3B39;
-}
-
-.pricing-subtitle {
-    top: 1852px;
-
-    font-family: 'Futura';
-    font-style : normal;
-    font-weight: 500;
-    font-size  : 20px;
-    line-height: 27px;
-    color      : #4B4845;
-}
-
-.trust-img {
-    padding-top: 120px;
-
-    img {
-        margin-inline-end  : 50px;
-        margin-inline-start: 50px;
-        width              : 225px;
-        height             : auto;
-    }
-}
 
 @media (max-width: 767px) {
     .pricing-area {
@@ -2253,6 +2217,7 @@ p {
         line-height: 27px;
         color      : #4B4845;
     }
+
 
     .trust-img {
         padding-top: 18px;
@@ -2372,6 +2337,18 @@ p {
     line-height   : 48px;
     text-align    : center;
     color         : #3E3B39;
+}
+
+.contactTextOri {
+    padding-top  : 0px;
+    font-family  : 'Futura';
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 36px;
+    line-height  : 48px;
+    text-align   : center;
+    color        : #3E3B39;
+    margin-bottom: 140px;
 }
 
 .contactTextRedes {

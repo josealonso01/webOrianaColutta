@@ -55,7 +55,7 @@ $(function () {
   el.scrollTop = 0;
   el.scrollLeft = 0;
   el.scrollTop += 0;
-  el.scrollLeft += 320;
+  el.scrollLeft += 300;
   var lastScrollTop; // This Varibale will store the top position
 
   var prevScrollpos = window.pageYOffset;

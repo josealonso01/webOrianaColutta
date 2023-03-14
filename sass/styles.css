@@ -638,6 +638,9 @@ p {
        3.HEADER css 
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
+.container {
+  max-width: 1440px; }
+
 .navbar-area {
   background: rgba(252, 251, 251, 0.6);
   box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.1);
@@ -656,16 +659,14 @@ p {
 
 .navbar-area .navbar-brand img {
   max-width: 150px;
-  position: relative;
-  left: -90px; }
+  position: relative; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-area {
     padding: 10px 0; }
   .navbar-area .navbar-brand img {
     max-width: 150px;
-    position: relative;
-    left: -20px; } }
+    position: relative; } }
 
 @media (max-width: 767px) {
   body {
@@ -722,8 +723,9 @@ p {
     top: -8px; }
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
-    left: 0;
+    left: 0px;
     height: 301px;
+    top: 115px;
     width: 100%;
     background-color: rgba(232, 137, 175, 0.34);
     z-index: 8;
@@ -769,20 +771,19 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-area .navbar .navbar-nav .nav-item a {
     visibility: visible;
-    padding: 11px 16px;
-    padding: 10px 0;
-    display: block;
-    border: 0;
-    margin: 0;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    text-align: right;
+    border-radius: 0px;
     margin-left: 175px;
-    border-bottom: 1px solid #FDFDFD;
-    color: #FDFDFD; } }
+    font-size: 15px;
+    margin-bottom: 4px;
+    line-height: 27px;
+    display: flex;
+    text-align: right;
+    color: #FDFDFD;
+    border-bottom: 1px solid #F9F9F9;
+    flex-direction: row-reverse; } }
 
 @media (max-width: 767px) {
   .navbar-area .navbar .navbar-nav .nav-item a {
@@ -1206,7 +1207,6 @@ p {
 
 .overlay-right {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   width: 100%;
@@ -1492,7 +1492,7 @@ p {
   padding-bottom: 79px;
   animation: animate__fadeInDown;
   animation-duration: 2s;
-  background-image: url("../assets/images/vector-2-2.png");
+  background-image: url("../assets/images/Vector 2 (1).png");
   background-position: initial;
   background-size: 100% 750px;
   background-repeat: no-repeat; }
@@ -1666,7 +1666,7 @@ p {
 ===========================*/
 .pricing-area {
   position: relative;
-  margin-top: 190px;
+  margin-top: 117px;
   padding-top: 560px;
   padding-bottom: 130px;
   animation: animate__fadeInDown;
@@ -1688,12 +1688,10 @@ p {
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
+  text-align: center;
   color: #3E3B39; }
 
 .pricing-subtitle {
-  /* identical to box height */
-  text-align: center;
-  text-decoration-line: underline;
   color: #4B4845;
   height: 48px;
   font-family: 'Futura';
@@ -1701,7 +1699,7 @@ p {
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
-  color: #4B4845; }
+  margin-bottom: 117px; }
 
 .pricing-trust {
   padding-top: 200px;
@@ -1726,8 +1724,8 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 27px;
-  text-align: center;
   text-decoration-line: underline;
+  text-align: revert;
   color: #4B4845; }
   .brandNames u {
     visibility: hidden; }
@@ -1753,32 +1751,6 @@ p {
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: block; }
-
-.pricing-title {
-  top: -7px;
-  font-family: 'Futura';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
-  color: #3E3B39; }
-
-.pricing-subtitle {
-  top: 1852px;
-  font-family: 'Futura';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 27px;
-  color: #4B4845; }
-
-.trust-img {
-  padding-top: 120px; }
-  .trust-img img {
-    margin-inline-end: 50px;
-    margin-inline-start: 50px;
-    width: 225px;
-    height: auto; }
 
 @media (max-width: 767px) {
   .pricing-area {
@@ -1890,6 +1862,17 @@ p {
   line-height: 48px;
   text-align: center;
   color: #3E3B39; }
+
+.contactTextOri {
+  padding-top: 0px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #3E3B39;
+  margin-bottom: 140px; }
 
 .contactTextRedes {
   padding-top: 70px;
