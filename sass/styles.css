@@ -734,9 +734,10 @@ p {
     top: -8px; }
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
-    top: 106%;
+    margin-top: 354px;
     height: 301px;
-    width: 100%;
+    width: 108%;
+    margin-left: -15px;
     background-color: rgba(232, 137, 175, 0.34);
     z-index: 8; } }
 
@@ -779,7 +780,7 @@ p {
     font-size: 20px;
     line-height: 27px;
     text-align: right;
-    margin-left: 192px;
+    margin-left: 175px;
     border-bottom: 1px solid #FDFDFD;
     color: #FDFDFD; } }
 
@@ -790,7 +791,7 @@ p {
     font-style: normal;
     font-weight: 500;
     border-radius: 0px;
-    margin-left: 165px;
+    margin-left: 175px;
     font-size: 15px;
     line-height: 27px;
     display: flex;
