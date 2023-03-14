@@ -56,23 +56,18 @@ $(function () {
   el.scrollLeft = 0;
   el.scrollTop += 0;
   el.scrollLeft += 320;
+  var lastScrollTop; // This Varibale will store the top position
 
-var mywindow = $(window);
-var mypos = mywindow.scrollTop();
-var up = false;
-var newscroll;
-mywindow.scroll(function () {
-  newscroll = mywindow.scrollTop();
-  if (newscroll > mypos && !up) {
-    $('.collapse').stop().fadeOut();
-    up = !up;
-    console.log(up);
-  } else if (newscroll < mypos && up) {
-    $('.collapse').stop().fadeIn();
-    up = !up;
-  }
-  mypos = newscroll;
-});
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById('navbarEight').style.top = '-287px';
+    } else {
+      document.getElementById('navbarEight').style.top = '-1000px';
+    }
+    prevScrollpos = currentScrollPos;
+  };
 
   //===== Sidebar
 
