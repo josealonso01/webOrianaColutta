@@ -776,9 +776,10 @@ p {
     font-weight: 500;
     border-radius: 0px;
     margin-left: 175px;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 4px;
     line-height: 27px;
+    align-items: center;
     display: flex;
     text-align: right;
     color: #FDFDFD;
@@ -793,8 +794,10 @@ p {
     font-weight: 500;
     border-radius: 0px;
     margin-left: 175px;
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 4px;
     line-height: 27px;
+    align-items: center;
     display: flex;
     text-align: right;
     color: #FDFDFD;
