@@ -69,6 +69,14 @@ $(function () {
     pos1 = pos2;
   };
 
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $('#navbarButton').fadeOut();
+    } else {
+      $('#navbarButton').fadeIn();
+    }
+  }); 
+
   //===== Sidebar
 
   $('[href="#side-menu-right"], .overlay-right').on(
@@ -126,7 +134,7 @@ $(function () {
 
   // Show or hide the sticky footer button
   $(window).on('scroll', function (event) {
-    if ($(this).scrollTop() > 600) {
+    if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn(200);
     } else {
       $('.back-to-top').fadeOut(200);
