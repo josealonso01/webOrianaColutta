@@ -56,17 +56,17 @@ $(function () {
   el.scrollLeft = 0;
   el.scrollTop += 0;
   el.scrollLeft += 300;
-  var lastScrollTop; // This Varibale will store the top position
 
-  var prevScrollpos = window.pageYOffset;
+  var pos1 = window.pageYOffset;
   window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById('navbarEight').style.top = '-287px';
+    var pos2 = window.pageYOffset;
+    if (pos1 > pos2) {
+      document.getElementById('navbarEight').style.top = null;
+      $('.navbar-area').removeClass('sticky');
     } else {
       document.getElementById('navbarEight').style.top = '-1000px';
     }
-    prevScrollpos = currentScrollPos;
+    pos1 = pos2;
   };
 
   //===== Sidebar
