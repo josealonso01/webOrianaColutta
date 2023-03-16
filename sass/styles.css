@@ -1722,6 +1722,7 @@ p {
 
 .brandNames {
   padding-top: 45px;
+  padding-left: 45px;
   font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
@@ -1730,6 +1731,8 @@ p {
   text-decoration-line: underline;
   text-align: revert;
   color: #4B4845; }
+  .brandNames .urxit {
+    padding-left: 20px; }
   .brandNames u {
     visibility: hidden; }
 
@@ -1796,6 +1799,7 @@ p {
     text-decoration-line: underline;
     color: #3E3B39; }
   .brandNames {
+    padding: 0px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
