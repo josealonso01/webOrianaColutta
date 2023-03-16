@@ -75,7 +75,16 @@ $(function () {
     } else {
       $('#navbarButton').fadeIn();
     }
-  }); 
+  });
+
+  document.getElementById('sidebar-right').addEventListener(
+    'mouseleave',
+    (ev) => {
+      $('.sidebar-right').removeClass('open');
+      $('.overlay-right').removeClass('open');
+    },
+    false
+  );
 
   //===== Sidebar
 
