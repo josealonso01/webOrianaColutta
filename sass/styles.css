@@ -1179,10 +1179,12 @@ p {
 .sidebar-right .sidebar-close .close {
   font-size: 24px;
   position: relative;
-  left: 19px;
+  bottom: -20px;
+  left: 54px;
   background-color: #DF4F89;
+  opacity: inherit;
   background-size: 100%;
-  border-radius: 20px;
+  border-radius: 8px;
   color: #FFFFFF; }
 
 .sidebar-right .sidebar-content .sidebar-menu {
