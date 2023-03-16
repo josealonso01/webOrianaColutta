@@ -860,6 +860,7 @@ p {
 }
 
 .navbar-area .navbar .navbar-toggler .toggler-icon {
+    visibility        : hidden;
     width             : 30px;
     height            : 2px;
     background-color  : #DF4F89;
@@ -896,11 +897,17 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler {
+        visibility: visible;
+    }
+
     .navbar-area .navbar .navbar-toggler .toggler-icon {
-        top: -8px;
+        visibility: visible;
+        top       : -8px;
     }
 
     .navbar-area .navbar .navbar-collapse {
+        visibility      : visible;
         position        : absolute;
         left            : 0px;
         height          : 301px;
@@ -915,7 +922,8 @@ p {
 
 @media (max-width: 767px) {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
-        top: -8px;
+        visibility: visible;
+        top       : -8px;
     }
 
     .navbar-area .navbar .navbar-collapse {
@@ -1485,8 +1493,17 @@ p {
 }
 
 .sidebar-right .sidebar-content .sidebar-menu ul li a:hover {
-    background: rgba(255, 255, 255, 0.28);
-    box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.1);
+    background : #DF4F89;
+    border     : 1px solid #DF4F89;
+    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Futura';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 20px;
+    line-height: 27px;
+    display    : block;
+    text-align : center;
+    color      : #FFFFFF;
 }
 
 .overlay-right {
