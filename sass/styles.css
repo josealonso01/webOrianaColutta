@@ -1180,7 +1180,7 @@ p {
 .sidebar-right .sidebar-close {
   position: absolute;
   top: 30px;
-  right: 70px; }
+  right: 80px; }
 
 .sidebar-right .sidebar-close .close {
   font-size: 24px;
@@ -1192,6 +1192,10 @@ p {
   background-size: 100%;
   border-radius: 8px;
   color: #FFFFFF; }
+
+.sidebar-right .sidebar-close .close:hover {
+  background-color: #DF4F89;
+  opacity: inherit; }
 
 .sidebar-right .sidebar-content .sidebar-menu {
   margin-top: 40px; }
@@ -1875,6 +1879,13 @@ p {
   border-radius: 60px;
   margin-inline-end: 50px;
   margin-inline-start: 50px; }
+
+.btnContact:hover {
+  background: #EB4588;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  font-family: 'Futura';
+  font-weight: 700;
+  color: #FFFFFF; }
 
 .contactText {
   padding-top: 70px;
