@@ -1809,15 +1809,16 @@ p {
     background-position: 1px -54px, 1px 466px, 1px 855px, 1px 1530px;
     background-blend-mode: hue;
     background-repeat: no-repeat, no-repeat, no-repeat; }
-  .logoPricing {
-    visibility: visible; }
   .pricing-title {
+    margin-left: 40px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     color: #3E3B39; }
+    .pricing-title .logoPricing {
+      visibility: visible; }
   .pricing-subtitle {
     top: 1852px;
     font-family: 'Futura';

@@ -859,7 +859,7 @@ p {
     .navbar-area .navbar-brand img {
         max-width: 150px;
         position : relative;
-        
+
     }
 }
 
@@ -2257,22 +2257,23 @@ p {
             no-repeat, no-repeat;
     }
 
-    .logoPricing {
-        visibility: visible;
-    }
 
     .pricing-title {
+        margin-left: 40px;
         font-family: 'Futura';
         font-style : normal;
         font-weight: 700;
         font-size  : 20px;
         line-height: 27px;
         color      : #3E3B39;
+
+        .logoPricing {
+            visibility: visible;
+        }
     }
 
     .pricing-subtitle {
         top: 1852px;
-
         font-family: 'Futura';
         font-style : normal;
         font-weight: 500;
@@ -2326,7 +2327,7 @@ p {
         font-size  : 16px;
         line-height: 21px;
         text-align : center;
-        color: #FFFFFF;
+        color      : #FFFFFF;
 
 
     }
