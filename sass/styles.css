@@ -1743,7 +1743,6 @@ p {
 
 .brandNames {
   padding-top: 45px;
-  padding-left: 45px;
   font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
@@ -1752,10 +1751,9 @@ p {
   text-decoration-line: underline;
   text-align: revert;
   color: #4B4845; }
-  .brandNames .urxit {
-    padding-left: 20px; }
-  .brandNames u {
-    visibility: hidden; }
+
+.discount {
+  display: none; }
 
 .maskgroup {
   margin-top: 50px; }
@@ -1765,6 +1763,9 @@ p {
 .imageBox {
   position: relative;
   float: left; }
+
+.mobileVersion {
+  display: none; }
 
 .imageBox .hoverImg {
   position: absolute;
@@ -1782,9 +1783,10 @@ p {
 @media (max-width: 767px) {
   .pricing-area {
     margin-top: 0px;
-    background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png");
-    background-position: 1px -54px, 1px 466px;
-    background-repeat: no-repeat, no-repeat; }
+    background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png"), url("../assets/images/ori 20 1.png"), url("../assets/images/Vector 2.png");
+    background-position: 1px -54px, 1px 466px, 1px 880px, 1px 1530px;
+    background-blend-mode: hue;
+    background-repeat: no-repeat, no-repeat, no-repeat; }
   .logoPricing {
     visibility: visible; }
   .pricing-title {
@@ -1802,6 +1804,15 @@ p {
     font-size: 20px;
     line-height: 27px;
     color: #4B4845; }
+  .pricing-images {
+    margin-left: 46px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    width: 111px;
+    height: 176px;
+    background: #DF4F89;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px; }
   .trust-img {
     padding-top: 18px; }
     .trust-img img {
@@ -1810,6 +1821,7 @@ p {
       width: 225px;
       height: auto; }
   .pricing-trust {
+    padding-top: 100px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -1823,14 +1835,27 @@ p {
     padding: 0px;
     font-family: 'Futura';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-    color: #4B4845; }
-    .brandNames u {
-      visibility: visible; }
+    text-align: center;
+    color: #FFFFFF; }
+  .discount {
+    display: block;
+    visibility: visible;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF; }
   .imageBox .hoverImg {
-    visibility: hidden; } }
+    visibility: hidden; }
+  .mobileVersion {
+    display: block; }
+  .urxitWeb {
+    display: none; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .pricing-title {
@@ -1855,7 +1880,11 @@ p {
       margin-inline-end: 50px;
       margin-inline-start: 50px;
       width: 225px;
-      height: auto; } }
+      height: auto; }
+  .mobileVersion {
+    visibility: visible; }
+  .urxitWeb {
+    visibility: hidden; } }
 
 /*===========================
       20.CONTACT css 
@@ -1920,7 +1949,20 @@ p {
   text-align: center;
   color: #3E3B39; }
 
+.redes-area .icons {
+  margin: 25px; }
+
+.redesIcons {
+  padding-bottom: 40px; }
+
 @media (max-width: 767px) {
+  .contact-area {
+    background: #DF4F89;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    width: 375px;
+    height: 252px;
+    margin-left: 25px; }
   .btnContact {
     margin: 10px;
     width: 219px;
@@ -1929,21 +1971,20 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 35px; }
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF; }
+  .btnContact:hover {
+    pointer-events: none; }
   .contactText {
+    padding-top: 39px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-    text-align: center;
-    color: #3E3B39; }
+    color: #FFFFFF; }
   .contactTextRedes {
-    visibility: hidden;
-    padding-top: 0px;
-    padding-bottom: 0px; }
-  .contactTextOri {
-    padding-top: 0px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -1951,12 +1992,30 @@ p {
     line-height: 27px;
     text-align: center;
     color: #3E3B39;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .contactTextOri {
+    padding-top: 0px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #3E3B39;
     margin-bottom: 140px; }
   .redes-area {
     padding-top: 0px; }
-  .redesIcons .icons {
-    width: 56.75px;
-    height: 56.75px; } }
+    .redes-area .icons {
+      margin: 10px; }
+  .redesIcons {
+    padding-top: 23px;
+    padding-bottom: 23px; }
+    .redesIcons .icons {
+      width: 18px;
+      height: 18px; }
+      .redesIcons .icons img {
+        margin: 0px; } }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .btnContact {
@@ -1968,12 +2027,6 @@ p {
     font-weight: 500;
     font-size: 14px;
     line-height: 35px; } }
-
-.redes-area .icons {
-  margin: 25px; }
-
-.redesIcons {
-  padding-bottom: 40px; }
 
 /*===========================
     22.HEADER css 
@@ -1995,10 +2048,7 @@ p {
 
 @media (max-width: 767px) {
   .footer-area {
-    background-image: url("../assets/images/Vector 4.png");
-    background-size: 456px 254px;
-    background-position: 1px 25px;
-    background-repeat: no-repeat; } }
+    background-image: none; } }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
