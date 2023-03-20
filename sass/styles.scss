@@ -140,8 +140,8 @@ p {
     .section-name {
         display : block;
         position: relative;
-        left: 135px;
-        top: 30px;
+        left    : 135px;
+        top     : 30px;
 
         p {
             font-family: 'Croissant One';
@@ -859,6 +859,7 @@ p {
     .navbar-area .navbar-brand img {
         max-width: 150px;
         position : relative;
+        
     }
 }
 
@@ -877,7 +878,7 @@ p {
     .navbar-area .navbar-brand img {
         max-width: 150px;
         height   : 70px;
-        bottom   : 5px;
+        bottom   : 15px;
         position : relative;
         left     : -10px;
 
@@ -2250,7 +2251,7 @@ p {
     .pricing-area {
         margin-top           : 0px;
         background-image     : url('../assets/images/Vector\ 3.png'), url('../assets/images/Vector\ 11.png'), url('../assets/images/ori\ 20\ 1.png'), url('../assets/images/Vector\ 2.png');
-        background-position  : 1px -54px, 1px 466px, 1px 880px, 1px 1530px;
+        background-position  : 1px -54px, 1px 466px, 1px 855px, 1px 1530px;
         background-blend-mode: hue;
         background-repeat    : no-repeat,
             no-repeat, no-repeat;
@@ -2325,7 +2326,7 @@ p {
         font-size  : 16px;
         line-height: 21px;
         text-align : center;
-        color      : #FFFFFF;
+        color: #FFFFFF;
 
 
     }
