@@ -2250,7 +2250,6 @@ p {
 }
 
 
-
 @media (max-width: 767px) {
     .pricing-area {
         padding-bottom: 66px;
@@ -2362,7 +2361,12 @@ p {
     }
 
 }
-
+@media only screen and (min-width: 370px) and (max-width: 400px) {
+    .pricing-images {
+        margin-left : 10px;
+        margin-right: 10px;
+    }
+}
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
     .pricing-title {
