@@ -99,41 +99,6 @@ p {
   height: 100%; }
 
 /*==== Section Title =====*/
-.section-title .title {
-  font-size: 44px;
-  font-weight: 500;
-  color: #121212;
-  line-height: 55px; }
-
-.section-name {
-  display: none; }
-
-@media (max-width: 767px) {
-  .section-title .title {
-    font-size: 30px;
-    line-height: 35px; }
-  .section-name {
-    display: block;
-    position: relative;
-    left: 135px;
-    top: 30px; }
-    .section-name p {
-      font-family: 'Croissant One';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 40px;
-      line-height: 57px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      color: #DF4F89; } }
-
-.section-title .text {
-  font-size: 16px;
-  line-height: 24px;
-  color: #6c6c6c;
-  margin-top: 24px; }
-
 /*===== All Preloader Style =====*/
 .preloader {
   /* Body Overlay */
@@ -1582,6 +1547,21 @@ p {
   .about-area .section-title p img {
     padding-left: 75%; }
 
+.section-title .title {
+  font-size: 44px;
+  font-weight: 500;
+  color: #121212;
+  line-height: 55px; }
+
+.section-name {
+  display: none; }
+
+.section-title .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 24px; }
+
 @media (max-width: 767px) {
   .about-area {
     background-image: url("../assets/images/Vector 2 (1).png"), url("../assets/images/Vector 2.png");
@@ -1589,6 +1569,24 @@ p {
     background-position: top, 1px 640px;
     background-repeat: no-repeat;
     padding-top: 50px; }
+  .section-title .title {
+    font-size: 30px;
+    line-height: 35px; }
+  .section-name {
+    display: block;
+    position: relative;
+    left: 135px;
+    top: 30px; }
+    .section-name p {
+      font-family: 'Croissant One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 57px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #DF4F89; }
   .about-area .section-title p {
     font-family: 'Caviar Dreams';
     font-style: normal;
@@ -1606,6 +1604,20 @@ p {
     padding-top: 48px;
     justify-content: space-around;
     justify-items: center; } }
+
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+  .section-name {
+    display: block;
+    position: relative; }
+  .about-area .section-title p {
+    font-family: 'Caviar Dreams';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 1px; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .section-title p {
