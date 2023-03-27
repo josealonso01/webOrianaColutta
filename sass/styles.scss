@@ -803,7 +803,7 @@ p {
 
 .navbar-area .navbar-brand img {
     max-width: 150px;
-    position: relative;
+    position : relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -812,7 +812,7 @@ p {
     }
 
     .navbar-area .navbar-brand img {
-        width: 100%;
+        width   : 100%;
         position: relative;
     }
 }
@@ -831,7 +831,7 @@ p {
 
     .navbar-area .navbar-brand img {
         max-width: 100%;
-        height: 56.95px;
+        height   : 56.95px;
         bottom   : 15px;
         position : relative;
         left     : -10px;
@@ -1088,7 +1088,26 @@ p {
     }
 }
 
+
+.carousel_mobile {
+    display: none;
+}
+
+.carousel_full {
+    display: block;
+}
+
+
 @media (max-width: 767px) {
+
+    .carousel_mobile {
+        display: block;
+    }
+
+    .carousel_full {
+        display: none;
+    }
+
     .navbar-area .navbar .navbar-nav .nav-item .sub-menu {
         position          : relative !important;
         width             : 100% !important;
@@ -1528,44 +1547,6 @@ p {
     background-color: #fff;
 }
 
-.carousel-item {
-    background-image: url('../assets/images/Frame\ 279.png');
-    background-size : cover;
-    height          : 657px;
-
-    .uno {
-        background-image: url('../assets/images/ori\ 37.png');
-        background-size : cover;
-        height          : 657px;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        background-image: url('../assets/images/Frame\ 279.png');
-        background-size : 100% 100%;
-        width           : 100%;
-        height          : 454px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        background-image: url('../assets/images/Frame\ 279.png');
-        background-size : 100% 100%;
-        width           : 100%;
-        height          : 454px;
-    }
-}
-
-@media (max-width: 767px) {
-    .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-        background-image: url('../assets/images/ori\ 13\ 1.png');
-        height          : 379px;
-        background-size : 100% 100%;
-        width           : 100%;
-    }
-}
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
     padding-top      : 10px;
@@ -2295,7 +2276,7 @@ p {
         padding-bottom       : 66px;
         margin-top           : 0px;
         background-image     : url('../assets/images/Vector\ 3.png'), url('../assets/images/Vector\ 11.png'), url('../assets/images/ori\ 20\ 1.png'), url('../assets/images/Vector\ 2.png');
-        background-position  : 1px -54px, 1px 466px, 1px 855px, 1px 1530px;
+        background-position  : 1px -54px, 1px 428px, 1px 855px, 1px 1530px;
         background-blend-mode: hue;
         background-repeat    : no-repeat,
             no-repeat, no-repeat;
@@ -2754,7 +2735,10 @@ p {
 
 @media (max-width: 767px) {
     .footer-area {
-        background-image: none;
+        background-image   : url('../assets/images/Vector\ 4.png');
+        background-repeat  : no-repeat;
+        background-size    : 425px 287px;
+        background-position: 1px -80px;
     }
 }
 
