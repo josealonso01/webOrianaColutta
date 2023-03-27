@@ -57,6 +57,12 @@ $(function () {
   el.scrollTop += 0;
   el.scrollLeft += 300;
 
+  var img = document.getElementById('imagesDiscounts');
+  img.scrollTop = 0;
+  img.scrollLeft = 0;
+  img.scrollTop += 0;
+  img.scrollLeft += 270;
+
   var pos1 = window.pageYOffset;
   window.onscroll = function () {
     var pos2 = window.pageYOffset;

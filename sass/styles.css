@@ -652,7 +652,7 @@ p {
   .navbar-area {
     padding: 10px 0; }
   .navbar-area .navbar-brand img {
-    max-width: 150px;
+    width: 100%;
     position: relative; } }
 
 @media (max-width: 767px) {
@@ -663,8 +663,8 @@ p {
     height: 77px;
     padding: 10px 0; }
   .navbar-area .navbar-brand img {
-    max-width: 150px;
-    height: 70px;
+    max-width: 100%;
+    height: 56.95px;
     bottom: 15px;
     position: relative;
     left: -10px; } }
@@ -1175,7 +1175,7 @@ p {
 .sidebar-right .sidebar-close .close {
   font-size: 24px;
   position: relative;
-  bottom: -20px;
+  bottom: -7px;
   left: 54px;
   background-color: #DF4F89;
   opacity: inherit;
@@ -1239,10 +1239,14 @@ p {
 .slider-area .bd-example .carousel .carousel-inner {
   background-color: #fff; }
 
-.slider-area .bd-example .carousel .carousel-inner .carousel-item {
+.carousel-item {
   background-image: url("../assets/images/Frame 279.png");
   background-size: cover;
   height: 657px; }
+  .carousel-item .uno {
+    background-image: url("../assets/images/ori 37.png");
+    background-size: cover;
+    height: 657px; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
@@ -1847,12 +1851,19 @@ p {
     font-size: 20px;
     line-height: 27px;
     color: #4B4845; }
+  .descuentos {
+    display: flex;
+    overflow-x: scroll; }
+    .descuentos .imageInn {
+      width: 148.7px;
+      height: 148.7px;
+      align-items: center; }
+    .descuentos .imageBox {
+      margin-bottom: 29px; }
   .pricing-images {
-    margin-left: 46px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    width: 111px;
-    height: 176px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 26px;
     background: #DF4F89;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px; }
@@ -1871,7 +1882,6 @@ p {
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-    /* identical to box height */
     text-align: center;
     text-decoration-line: underline;
     color: #3E3B39; }
@@ -1891,8 +1901,8 @@ p {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 24px;
+    line-height: 32px;
     text-align: center;
     color: #FFFFFF; }
   .imageBox .hoverImg {
