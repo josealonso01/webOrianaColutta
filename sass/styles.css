@@ -1231,6 +1231,10 @@ p {
 .overlay-right.open {
   display: block; }
 
+@media only screen and (min-width: 1400px) and (max-width: 1440px) {
+  .sidebar-right .sidebar-close .close {
+    left: 64px; } }
+
 /*===== SLIDER ONE =====*/
 .slider-area .bd-example .carousel .carousel-inner {
   background-color: #fff; }
@@ -1536,14 +1540,13 @@ p {
 .about-area .section-title p {
   float: right;
   line-height: 25px;
-  color: #121212;
-  margin-top: 8px;
+  color: #FFFFFF;
+  margin-bottom: 92px;
   font-family: 'Caviar Dreams';
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
-  line-height: 26px;
-  color: #1A1A1A; }
+  line-height: 26px; }
   .about-area .section-title p img {
     padding-left: 75%; }
 
@@ -1809,6 +1812,12 @@ p {
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: block; }
+
+@media only screen and (min-width: 1400px) and (max-width: 1440px) {
+  .pricing-trustImg a img {
+    display: inline-block;
+    margin: 0;
+    padding-inline: 30px; } }
 
 @media (max-width: 767px) {
   .pricing-area {
