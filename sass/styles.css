@@ -2050,8 +2050,6 @@ p {
     line-height: 35px;
     text-align: center;
     color: #FFFFFF; }
-  .btnContact:hover {
-    pointer-events: none; }
   .contactText {
     padding-top: 39px;
     font-family: 'Futura';
