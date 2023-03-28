@@ -804,6 +804,7 @@ p {
 .navbar-area .navbar-brand img {
     max-width: 150px;
     position : relative;
+    top: 13px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -832,6 +833,7 @@ p {
     .navbar-area .navbar-brand img {
         max-width: 100%;
         height   : 56.95px;
+        top: -2px;
         bottom   : 15px;
         position : relative;
         left     : -10px;
@@ -1095,6 +1097,7 @@ p {
 
 .carousel_full {
     display: block;
+    width  : 100%;
 }
 
 
@@ -1309,7 +1312,7 @@ p {
 
 .navbar-area .navbar .navbar-btn .menu-bar {
     font-size         : 32px;
-    top               : 5px;
+    top               : 7px;
     position          : relative;
     overflow          : hidden;
     color             : #DF4F89;
@@ -1471,8 +1474,8 @@ p {
 .sidebar-right .sidebar-close .close {
     font-size       : 24px;
     position        : relative;
-    bottom          : -7px;
-    left            : 54px;
+    bottom          : -16px;
+    left            : 64px;
     background-color: #DF4F89;
     opacity         : inherit;
     background-size : 100%;
