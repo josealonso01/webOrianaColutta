@@ -920,7 +920,7 @@ p {
 
     .navbar-area .navbar .navbar-collapse {
         position        : absolute;
-        margin-top      : 365px;
+        margin-top      : 366px;
         height          : 301px;
         width           : 108%;
         margin-left     : -15px;
@@ -1939,7 +1939,8 @@ p {
         display : block;
         position: relative;
         left    : 135px;
-        top     : 30px;
+        top     : auto;
+        bottom: 45px;
 
         p {
             font-family: 'Croissant One';
@@ -1971,7 +1972,7 @@ p {
         display        : -webkit-box;
         overflow-x     : scroll;
         margin-top     : 50px;
-        padding-top    : 48px;
+        padding-top    : 0px;
         justify-content: space-around;
         justify-items  : center;
     }
