@@ -1577,8 +1577,8 @@ p {
     overflow-x: scroll;
     margin-top: 50px;
     padding-top: 0px;
-    justify-content: space-around;
-    justify-items: center; } }
+    justify-items: center;
+    position: relative; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .section-title p {
