@@ -1916,6 +1916,31 @@ p {
     margin-top : 24px;
 }
 
+.btnInfo {
+    width       : 150px;
+    height      : 80px;
+    font-family : 'Futura';
+    font-style  : normal;
+    font-weight : 500;
+    font-size   : 24px;
+    line-height : 70px;
+    text-align  : center;
+    color       : #FFFFFF;
+    background  : #FE88B7;
+    border-style: none;
+    box-shadow  : 0px 4px 8px rgba(0, 0, 0, 0.25),
+        inset 0px 4px 40px #FE88B7;
+    border-radius    : 60px;
+    margin-inline-end: 50px;
+}
+
+.btnInfo:hover {
+    background : #EB4588;
+    box-shadow : 0px 4px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Futura';
+    font-weight: 700;
+    color      : #FFFFFF;
+}
 
 @media (max-width: 767px) {
     .about-area {
@@ -1985,8 +2010,23 @@ p {
             margin-bottom: 29px;
         }
     }
-}
 
+    .btnInfo {
+        margin     : 10px;
+        width      : 219px;
+        position   : absolute;
+        bottom     : 684px;
+        left       : 89px;
+        height     : 38px;
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 14px;
+        line-height: 35px;
+        text-align : center;
+        color      : #FFFFFF;
+    }
+}
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .about-area .section-title p {
