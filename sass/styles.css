@@ -1716,7 +1716,7 @@ p {
 .pricing-trustImg a img {
   display: inline-block;
   margin: 0;
-  padding-inline: 60px; }
+  padding-inline: 25px; }
 
 .pricing-subtitle {
   color: #4B4845;
@@ -1740,9 +1740,6 @@ p {
 
 .trust-img {
   padding-top: 50px; }
-  .trust-img img {
-    margin-inline-end: 150px;
-    margin-inline-start: 150px; }
 
 .brandNames {
   padding-top: 45px;
