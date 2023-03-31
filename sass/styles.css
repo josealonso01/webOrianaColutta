@@ -1830,12 +1830,12 @@ p {
 
 @media (max-width: 767px) {
   .pricing-area {
-    padding-bottom: 66px;
     margin-top: 0px;
     background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png"), url("../assets/images/ori 20 1.png"), url("../assets/images/Vector 2.png");
     background-position: 1px -54px, 1px 428px, 1px 855px, 1px 1530px;
     background-blend-mode: hue;
-    background-repeat: no-repeat, no-repeat, no-repeat; }
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding-bottom: 211px; }
   .pricing-trustImg a img {
     padding: 0; }
   .pricing-title {
@@ -2040,6 +2040,14 @@ p {
   text-align: center;
   color: #3E3B39; }
 
+.contactSubText {
+  font-family: 'Futura';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #3E3B39; }
+
 .contactTextOri {
   padding-top: 0px;
   font-family: 'Futura';
@@ -2070,10 +2078,6 @@ p {
 
 @media (max-width: 767px) {
   .contact-area {
-    background: #DF4F89;
-    background-position: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
     width: 375px;
     height: 252px;
     margin: auto; }
@@ -2094,8 +2098,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF; }
+    line-height: 27px; }
   .contactTextRedes {
     font-family: 'Futura';
     font-style: normal;
