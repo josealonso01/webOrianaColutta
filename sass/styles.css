@@ -1533,14 +1533,17 @@ p {
   color: #6c6c6c;
   margin-top: 24px; }
 
+.newsSection {
+  padding-top: 57px; }
+
 .btnInfo {
-  width: 150px;
-  height: 80px;
+  width: 553px;
+  height: 97px;
   font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 70px;
+  line-height: 32px;
   text-align: center;
   color: #FFFFFF;
   background: #FE88B7;
@@ -1555,6 +1558,63 @@ p {
   font-family: 'Futura';
   font-weight: 700;
   color: #FFFFFF; }
+
+.contentModal {
+  width: 1228px;
+  height: 631px;
+  position: relative;
+  left: -325px;
+  background: #DF4F89;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 94px; }
+
+.textMasInfo {
+  position: absolute;
+  width: 1067px;
+  height: 398px;
+  left: 80px;
+  top: 124px;
+  font-family: 'Caviar Dreams';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.news {
+  padding-top: 100px; }
+
+.newsTitle {
+  padding-left: 100px;
+  padding-top: 200px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #DF4F89;
+  text-align: start; }
+
+.newsSubtitle {
+  padding-left: 100px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 48px;
+  color: #4B4845;
+  text-align: start; }
+
+.newsThanks {
+  padding-left: 100px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #DF4F89;
+  text-align: start; }
 
 @media (max-width: 767px) {
   .about-area {
