@@ -1832,10 +1832,10 @@ p {
   .pricing-area {
     margin-top: 0px;
     background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png"), url("../assets/images/ori 20 1.png"), url("../assets/images/Vector 2.png");
-    background-position: 1px -54px, 1px 428px, 1px 855px, 1px 1615px;
+    background-position: 1px -54px, 1px 428px, 1px 855px, 1px 1675px;
     background-blend-mode: hue;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    padding-bottom: 211px; }
+    padding-bottom: 125px; }
   .pricing-trustImg a img {
     padding: 0; }
   .pricing-title {
@@ -2078,8 +2078,11 @@ p {
 
 @media (max-width: 767px) {
   .contact-area {
-    width: 375px;
-    height: 252px;
+    background: #DF4F89;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    width: 403px;
+    height: 370px;
     margin: auto; }
   .btnContact {
     margin: 10px;
@@ -2098,7 +2101,17 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 27px; }
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF; }
+  .contactSubText {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF; }
   .contactTextRedes {
     font-family: 'Futura';
     font-style: normal;
