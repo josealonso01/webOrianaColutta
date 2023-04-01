@@ -1854,9 +1854,11 @@ p {
 
 
 .imagesGroup {
-    display    : flex;
-    flex-wrap  : nowrap;
-    padding-top: 48px;
+    display        : flex;
+    flex-wrap      : nowrap;
+    padding-top    : 48px;
+    justify-content: center;
+
 
     img {
         padding: 10px;
