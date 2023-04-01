@@ -891,7 +891,7 @@ p {
 @media (max-width: 767px) {
   .carousel_mobile {
     display: block;
-    height: 377px; }
+    height: 100%; }
   .carousel_full {
     display: none; }
   .navbar-area .navbar .navbar-nav .nav-item .sub-menu {
