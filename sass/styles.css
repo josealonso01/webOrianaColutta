@@ -1486,7 +1486,8 @@ p {
 .imagesGroup {
   display: flex;
   flex-wrap: nowrap;
-  padding-top: 48px; }
+  padding-top: 48px;
+  justify-content: center; }
   .imagesGroup img {
     padding: 10px; }
 
