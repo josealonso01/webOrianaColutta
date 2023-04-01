@@ -1999,25 +1999,25 @@ p {
 }
 
 .newsThanks {
-     padding-left: 100px;
-    font-family: 'Futura';
-    font-style : normal;
-    font-weight: 700;
-    font-size  : 32px;
-    line-height: 43px;
-    color: #DF4F89;
-    text-align : start;
+    padding-left: 100px;
+    font-family : 'Futura';
+    font-style  : normal;
+    font-weight : 700;
+    font-size   : 32px;
+    line-height : 43px;
+    color       : #DF4F89;
+    text-align  : start;
 }
 
 @media (max-width: 767px) {
     .about-area {
-        background-image: url('../assets/images/Vector\ 2\ \(1\).png'), url('../assets/images/Vector\ 2.png');
-        background-size : 100% 35%, contain;
+        background-image: url('../assets/images/Vector\ 2\ \(1\).png'), url('../assets/images/Vector\ 2.png'), url('../assets/images/Vector\ 3.png');
+        background-size : 100% 20%, contain;
         background-position: top,
-            1px 640px;
+            1px 640px, 0px 1306px;
         background-repeat: no-repeat;
         padding-top      : 50px;
-
+        padding-bottom: 20px;
         .row {
             margin: 0;
         }
@@ -2045,7 +2045,11 @@ p {
             align-items: center;
             text-align : center;
             color      : #DF4F89;
+            position   : absolute;
+            left       : 164px;
+            bottom     : -5px;
         }
+
 
     }
 
@@ -2093,6 +2097,86 @@ p {
         text-align : center;
         color      : #FFFFFF;
     }
+
+    .btnInfo {
+        padding : 0;
+        width   : 351px;
+        height  : 62px;
+        position: initial;
+        margin  : auto;
+
+    }
+
+    .news {
+        .row {
+            display: inline-block;
+        }
+    }
+
+    .contentModal {
+        width : 394px;
+        height: 478px;
+        left  : 10px;
+        top   : 40px;
+    }
+
+    .textMasInfo {
+        font-family: 'Caviar Dreams';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 18px;
+        line-height: 21px;
+        text-align : center;
+        color      : #FFFFFF;
+        width      : 342px;
+        height     : 312px;
+        left       : 26px;
+        top        : 55px;
+
+    }
+
+    .newsTitle {
+        padding    : 0%;
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 20px;
+        line-height: 27px;
+        text-align : center;
+        color      : #DF4F89;
+        margin     : auto;
+        position   : relative;
+        top        : -58px;
+    }
+
+    .newsSubtitle {
+        padding    : 0%;
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 18px;
+        line-height: 24px;
+        text-align : center;
+        color      : #4B4845;
+        margin     : auto;
+        position   : relative;
+        top        : -58px;
+    }
+
+    .newsThanks {
+        padding    : 0%;
+        font-family: 'Futura';
+        font-style : normal;
+        font-weight: 700;
+        font-size  : 16px;
+        line-height: 21px;
+        text-align : center;
+        color      : #DF4F89;
+        margin     : auto;
+        position   : relative;
+        top        : -58px;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
