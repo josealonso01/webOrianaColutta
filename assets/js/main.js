@@ -61,7 +61,7 @@ $(function () {
   img.scrollTop = 0;
   img.scrollLeft = 0;
   img.scrollTop += 0;
-  img.scrollLeft += 270;
+  img.scrollLeft += 820;
 
   var pos1 = window.pageYOffset;
   window.onscroll = function () {

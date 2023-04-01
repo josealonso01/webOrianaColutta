@@ -1699,7 +1699,8 @@ p {
   .contentModal {
     width: 394px;
     height: 478px;
-    left: 10px;
+    margin: auto;
+    left: auto;
     top: 40px; }
   .textMasInfo {
     font-family: 'Caviar Dreams';
@@ -1860,7 +1861,6 @@ p {
   position: relative;
   margin-top: 117px;
   padding-top: 560px;
-  padding-bottom: 130px;
   animation: animate__fadeInDown;
   animation-duration: 2s;
   background-image: url("../assets/images/Vector 2.png"), url("../assets/images/Vector 1.png");
