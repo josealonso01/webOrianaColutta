@@ -1670,9 +1670,9 @@ p {
     color: #FFFFFF; }
   .imagesGroup {
     display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: relative; }
+    overflow: scroll;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
     .imagesGroup .imageInn {
       width: 319px;
       height: 479px;

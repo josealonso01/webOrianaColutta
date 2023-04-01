@@ -2084,10 +2084,10 @@ p {
     }
 
     .imagesGroup {
-        display   : -webkit-inline-box;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position  : relative;
+        display        : flex;
+        overflow       : scroll;
+        flex-wrap      : nowrap;
+        justify-content: space-between;
 
         .imageInn {
             width      : 319px;

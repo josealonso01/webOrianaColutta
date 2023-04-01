@@ -55,7 +55,7 @@ $(function () {
   el.scrollTop = 0;
   el.scrollLeft = 0;
   el.scrollTop += 0;
-  el.scrollLeft += 150;
+  el.scrollLeft += 250;
 
   var img = document.getElementById('imagesDiscounts');
   img.scrollTop = 0;
