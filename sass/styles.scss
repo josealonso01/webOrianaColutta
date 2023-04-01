@@ -2084,7 +2084,7 @@ p {
     }
 
     .imagesGroup {
-        display   : flex;
+        display   : -webkit-inline-box;
         overflow-x: scroll;
         overflow-y: hidden;
         position  : relative;
