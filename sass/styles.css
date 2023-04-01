@@ -949,6 +949,16 @@ p {
   font-size: 14px;
   margin-top: 5px; }
 
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  .carousel_mobile {
+    height: 100%; }
+  .navbar-area .navbar .navbar-collapse {
+    height: 230px;
+    margin-bottom: 74px;
+    margin-left: -13px; }
+  .navbar-area .navbar .navbar-nav .nav-item a {
+    line-height: 15px; } }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-area .navbar .navbar-nav .nav-item .sub-menu li a i {
     display: none; } }
