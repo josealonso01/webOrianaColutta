@@ -1701,6 +1701,9 @@ p {
     margin: auto; }
   .news .row {
     display: inline-block; }
+  .newsSecondCol a {
+    position: relative;
+    left: -15px; }
   .contentModal {
     width: 394px;
     height: 478px;
