@@ -733,9 +733,9 @@ p {
     margin-bottom: -13px; }
   .navbar-area .navbar .navbar-collapse {
     position: absolute;
-    margin-top: 296px;
-    height: auto;
-    width: 110%;
+    margin-top: 368px;
+    height: 301px;
+    width: 108%;
     margin-left: -15px;
     background-color: rgba(232, 137, 175, 0.34);
     z-index: 8; } }
@@ -793,7 +793,7 @@ p {
     margin-left: 175px;
     font-size: 20px;
     margin-bottom: 4px;
-    line-height: 17px;
+    line-height: 27px;
     align-items: center;
     display: flex;
     text-align: right;
@@ -891,8 +891,7 @@ p {
 @media (max-width: 767px) {
   .carousel_mobile {
     display: block;
-    width: 100%;
-    height: 100%; }
+    height: 377px; }
   .carousel_full {
     display: none; }
   .navbar-area .navbar .navbar-nav .nav-item .sub-menu {
@@ -1081,8 +1080,15 @@ p {
 .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item a {
   color: #121212; }
 
+.navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item.active a,
+.navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item:hover a {
+  color: #38f9d7; }
+
 .navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar {
   color: #121212; }
+
+.navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar:hover {
+  color: #38f9d7; }
 
 .navbar-area.navbar-transparent-2 {
   background: transparent; }
@@ -1101,8 +1107,18 @@ p {
   .navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item a {
     color: #121212; } }
 
+.navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item a::before {
+  background-color: #38f9d7; }
+
+.navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item.active a,
+.navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item:hover a {
+  color: #38f9d7; }
+
 .navbar-area.navbar-transparent-2 .navbar .navbar-btn .menu-bar {
   color: #fff; }
+
+.navbar-area.navbar-transparent-2 .navbar .navbar-btn .menu-bar:hover {
+  color: #38f9d7; }
 
 .navbar-area.navbar-transparent-2.sticky {
   background-color: #fff; }
@@ -1154,7 +1170,7 @@ p {
   font-size: 24px;
   position: relative;
   bottom: -16px;
-  left: 64px;
+  left: 53px;
   background-color: #DF4F89;
   opacity: inherit;
   background-size: 100%;
@@ -1967,7 +1983,7 @@ p {
   .pricing-area {
     margin-top: 0px;
     background-image: url("../assets/images/Vector 3.png"), url("../assets/images/Vector 11.png"), url("../assets/images/ori 20 1.png"), url("../assets/images/Vector 2.png");
-    background-position: 1px -54px, 1px 428px, 1px 855px, 1px 1580px;
+    background-position: 1px -54px, 1px 428px, 1px 855px, 1px 1610px;
     background-blend-mode: hue;
     background-repeat: no-repeat, no-repeat, no-repeat;
     padding-bottom: 125px; }
