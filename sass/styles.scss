@@ -2009,6 +2009,13 @@ p {
     text-align  : start;
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1440px) {
+    .newsFirstCol {
+        position: relative;
+        bottom  : 125px;
+    }
+}
+
 @media (max-width: 767px) {
     .about-area {
         background-image: url('../assets/images/Vector\ 2\ \(1\).png'), url('../assets/images/Vector\ 2.png'), url('../assets/images/Vector\ 3.png');
@@ -2017,7 +2024,8 @@ p {
             1px 640px, 0px 1306px;
         background-repeat: no-repeat;
         padding-top      : 50px;
-        padding-bottom: 20px;
+        padding-bottom   : 20px;
+
         .row {
             margin: 0;
         }
@@ -2402,6 +2410,7 @@ p {
     text-decoration-line: underline;
     text-align          : revert;
     color               : #4B4845;
+    margin-inline       : -5px;
 }
 
 .discount {
@@ -2413,6 +2422,25 @@ p {
 
     img {
         padding: 15px;
+    }
+}
+
+.descuentos {
+    display   : flex;
+    overflow-x: scroll;
+
+    a {
+        margin-inline: 20px;
+    }
+
+    .imageInn {
+        width      : 148px;
+        height     : 148px;
+        align-items: center;
+    }
+
+    .imageBox {
+        margin-bottom: 29px;
     }
 }
 
@@ -2439,6 +2467,9 @@ p {
     box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
     display      : block;
 }
+
+
+
 
 @media only screen and (min-width: 1000px) and (max-width: 1440px) {
     .pricing-trustImg {
@@ -2722,8 +2753,9 @@ p {
 }
 
 .btnContact {
-    width       : 450px;
-    height      : 80px;
+    width       : 553px;
+    height      : 97px;
+    padding     : 10px;
     font-family : 'Futura';
     font-style  : normal;
     font-weight : 500;
@@ -2749,7 +2781,7 @@ p {
 
 
 .contactText {
-    padding-top   : 70px;
+    padding-top   : 170px;
     padding-bottom: 39px;
     font-family   : 'Futura';
     font-style    : normal;
@@ -2758,15 +2790,7 @@ p {
     line-height   : 48px;
     text-align    : center;
     color         : #3E3B39;
-}
-
-.contactSubText {
-    font-family: 'Futura';
-    font-style : normal;
-    font-size  : 20px;
-    line-height: 30px;
-    text-align : center;
-    color      : #3E3B39;
+    margin-inline : 130px;
 }
 
 .contactTextOri {
