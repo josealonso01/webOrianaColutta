@@ -110,7 +110,7 @@ $(function () {
   $('.container').imagesLoaded(function () {
     var $grid = $('.grid').isotope({
       // options
-      transitionDuration: '1s',
+      transitionDuration: '0.1s',
     });
 
     // filter items on button click
