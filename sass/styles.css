@@ -1848,7 +1848,7 @@ p {
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   .portfolio-area {
-    background-image: url("../assets/images/Coming soon Mobile.png");
+    background-image: url("../assets/images/Coming soon Mobile.webp");
     background-blend-mode: normal;
     padding-top: 150px;
     height: 402px; }
