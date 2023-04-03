@@ -999,6 +999,17 @@ p {
     }
 }
 
+@media (max-width: 400px) {
+    .navbar-area .navbar .navbar-nav .nav-item a {
+        line-height: 18px;
+    }
+
+    .navbar-area .navbar .navbar-collapse {
+        height    : 245px;
+        margin-top: 310px;
+    }
+}
+
 .navbar-area .navbar .navbar-nav .nav-item a::before {
     position          : absolute;
     content           : '';
@@ -1099,6 +1110,7 @@ p {
 }
 
 
+
 @media (max-width: 767px) {
 
     .carousel_mobile {
@@ -1168,6 +1180,13 @@ p {
     float     : right;
     font-size : 14px;
     margin-top: 5px;
+}
+
+@media (max-width: 400px) {
+    .carousel_mobile {
+        display: block;
+        height : 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2228,11 +2247,6 @@ p {
 }
 
 
-
-
-/*===========================
-      19.portfolio css 
-===========================*/
 .portfolio-area {
     padding-top          : 90px;
     width                : 100%;
@@ -2277,7 +2291,7 @@ p {
 
 @media (max-width: 767px) {
     .portfolio-area {
-        background-image     : url('../assets/images/Coming\ soon\ Mobile.png');
+        background-image     : url('../assets/images/Coming\ soon\ Mobile.webp');
         background-blend-mode: normal;
         padding-top          : 150px;
         height               : 402px;
