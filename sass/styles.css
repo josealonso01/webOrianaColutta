@@ -2342,3 +2342,63 @@ p {
 .back-to-top:hover {
   color: #121212;
   background-color: #DF4F89; }
+
+@media only screen and (max-width: 767px) {
+  .container-date {
+    padding-top: 125px; }
+    .container-date h3 {
+      color: silver; }
+  section.cuenta-regresiva .box-aros {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 380px;
+    height: 300px;
+    background-color: #DF4F89;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 99; }
+    section.cuenta-regresiva .box-aros .box-circulo span.falta {
+      position: relative;
+      top: -40px; }
+  section.cuenta-regresiva .reloj-col {
+    width: 25%;
+    border-right: 1px solid #D0888E;
+    float: left; }
+  section.cuenta-regresiva .reloj-col span.number {
+    display: inline-block;
+    width: 100%;
+    color: #D0888E;
+    font-family: fantasy;
+    font-weight: 100;
+    padding: 0 8px;
+    font-size: 40px; }
+  section.ceremonia-fiesta .col-ceremonia h3,
+  section.ceremonia-fiesta .col-fiesta h3 {
+    font-size: 35px;
+    color: #FEF7F9;
+    background-color: #9A8479;
+    display: inline-block;
+    position: relative;
+    min-width: 70%;
+    padding: 5px 0; }
+  section.ceremonia-fiesta .info-col .info-box h6 {
+    color: #9A8479;
+    font-size: 25px;
+    text-transform: uppercase; }
+  section.ceremonia-fiesta .info-col .info-box p {
+    color: #9A8479;
+    font-size: 20px; }
+  section.ceremonia-fiesta .info-col .info-box a.boton {
+    background: #D0888E;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 15px;
+    font-size: 17px;
+    padding: 18px 30px;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease; } }

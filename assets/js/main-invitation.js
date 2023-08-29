@@ -95,17 +95,6 @@ $(function () {
     });
   });
 
-  var el = document.getElementById('imagesGroup'); // Or whatever method to get the element
-  el.scrollTop = 0;
-  el.scrollLeft = 0;
-  el.scrollTop += 0;
-  el.scrollLeft += 250;
-
-  var img = document.getElementById('imagesDiscounts');
-  img.scrollTop = 0;
-  img.scrollLeft = 0;
-  img.scrollTop += 0;
-  img.scrollLeft += 820;
 
   var pos1 = window.pageYOffset;
   window.onscroll = function () {
