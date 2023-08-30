@@ -2433,9 +2433,26 @@ p {
     padding: 12px;
     /* shadow */
     box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
+  section.ceremonia-fiesta .info-col .info-box button.boton {
+    width: 216px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    background: #E7C78F;
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px;
+    border: none;
+    /* shadow */
+    box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
   .carousel_mobile_invitation {
     width: 100%;
-    height: 606px;
+    height: 1013px;
     flex-shrink: 0;
     background-color: black; }
   .portfolio-content-invitation {
@@ -2454,7 +2471,7 @@ p {
     line-height: normal;
     margin: auto; }
   .portfolio-area-invitation {
-    width: 390px;
+    width: 100%;
     height: 142px;
     flex-shrink: 0;
     text-align: center;
@@ -2543,17 +2560,19 @@ p {
       font-weight: 400;
       line-height: normal;
       padding: 10px; }
+  .invitation-name {
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: 135px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
   .img_logo_invitation {
-    position: relative;
-    margin: auto;
-    top: 100px;
-    left: 70px; }
+    top: -7px;
+    position: relative; }
   .text_logo_invitation {
-    position: relative;
-    margin: auto;
-    display: inline;
-    top: 125px;
-    left: 62px;
     color: #FFF;
     text-align: center;
     font-family: "Raleway";
@@ -2562,11 +2581,6 @@ p {
     font-weight: 700;
     line-height: normal; }
   .text1_logo_invitation {
-    position: relative;
-    margin: auto;
-    display: inline;
-    top: 125px;
-    left: 62px;
     color: #FFF;
     text-align: center;
     font-family: Croissant One;
@@ -2576,7 +2590,7 @@ p {
     line-height: normal; }
   .footer-invitation {
     width: 100%;
-    height: 529px;
+    height: 540px;
     flex-shrink: 0;
     background-image: url("../assets/images/pexels-cottonbro-studio-3402578.png");
     background-repeat: no-repeat;
