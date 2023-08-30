@@ -1,6 +1,26 @@
 $(function () {
   ('use strict');
 
+
+  //music 
+  
+  /* var playBtn = document.getElementById('play');
+  var audio = document.getElementById('audio');
+  var stopbtn = document.getElementById('stop');
+
+  var playSound = function () {
+    audio.play();
+  };
+
+  var stopSound = function () {
+    audio.pause();
+    audio.currentTime = 0;
+  };
+
+  playBtn.addEventListener('click', playSound, false);
+
+  stopbtn.addEventListener('click', stopSound, false); */
+
   //Cuenta regresiva
 
   var fechaCuentaRegresiva = '09/29/2023 20:00:00';

@@ -3120,9 +3120,10 @@ p {
     }
 
     .carousel_mobile_invitation {
-        width      : 100%;
-        height     : 606px;
-        flex-shrink: 0;
+        width           : 100%;
+        height          : 606px;
+        flex-shrink     : 0;
+        background-color: black;
     }
 
     .portfolio-content-invitation {
@@ -3144,6 +3145,32 @@ p {
         font-weight: 400;
         line-height: normal;
         margin     : auto;
+    }
+
+    .portfolio-area-invitation {
+        width              : 390px;
+        height             : 142px;
+        flex-shrink        : 0;
+        text-align         : center;
+        background-image   : url("../assets/images/confeti-derramando-botella-champan-fiesta\ 1.png");
+        background-position: center;
+        background-repeat  : no-repeat;
+        background-size    : cover;
+    }
+
+    .sub-title-invitation {
+        color      : #FFF;
+        text-align : center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Croissant One;
+        font-size  : 40px;
+        font-style : normal;
+        font-weight: 400;
+        line-height: normal;
+        width      : 295px;
+        margin     : auto;
+        padding    : 26px;
+        height     : 59px;
     }
 
     .contact-area-invitation {
@@ -3237,7 +3264,7 @@ p {
         width            : 100%;
         height           : 529px;
         flex-shrink      : 0;
-        background-image : url('../assets/images/pexels-cottonbro-studio-3401899.png');
+        background-image : url('../assets/images/pexels-cottonbro-studio-3402578.png');
         background-repeat: no-repeat;
         background-size  : 100% 100%;
         margin-top       : 90px;
@@ -3245,7 +3272,8 @@ p {
         .invitationText1 {
             width      : 149px;
             height     : 53px;
-            flex-shrink: 0;
+            position   : relative;
+            top        : 60px;
             color      : #FFF;
             text-align : center;
             font-family: Raleway;
@@ -3254,14 +3282,12 @@ p {
             font-weight: 700;
             line-height: normal;
             margin     : auto;
-            margin-top : 10px;
-            padding-top: 50px;
         }
+
 
         .invitationText2 {
             width      : 237px;
             height     : 83px;
-            flex-shrink: 0;
             color      : #FFF;
             text-align : center;
             font-family: Croissant One;
@@ -3270,8 +3296,49 @@ p {
             font-weight: 400;
             line-height: normal;
             margin     : auto;
-            padding-top: 90px;
+            position   : relative;
+            top        : 100px;
         }
     }
 
+
+
+    .img_logo_invitation {
+        position: relative;
+        margin  : auto;
+        top     : 100px;
+        left    : 70px
+    }
+
+    .text_logo_invitation {
+        position   : relative;
+        margin     : auto;
+        display    : inline;
+        top        : 125px;
+        left       : 62px;
+        color      : #FFF;
+        text-align : center;
+        font-family: "Raleway";
+        font-size  : 64px;
+        font-style : normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .text1_logo_invitation {
+        position   : relative;
+        margin     : auto;
+        display    : inline;
+        top        : 125px;
+        left       : 62px;
+        color      : #FFF;
+        text-align : center;
+        font-family: Croissant One;
+        font-size  : 64px;
+        font-style : normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
 }
