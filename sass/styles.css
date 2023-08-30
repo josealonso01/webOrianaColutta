@@ -2543,6 +2543,37 @@ p {
       font-weight: 400;
       line-height: normal;
       padding: 10px; }
+  .img_logo_invitation {
+    position: relative;
+    margin: auto;
+    top: 100px;
+    left: 70px; }
+  .text_logo_invitation {
+    position: relative;
+    margin: auto;
+    display: inline;
+    top: 125px;
+    left: 62px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  .text1_logo_invitation {
+    position: relative;
+    margin: auto;
+    display: inline;
+    top: 125px;
+    left: 62px;
+    color: #FFF;
+    text-align: center;
+    font-family: Croissant One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
   .footer-invitation {
     width: 100%;
     height: 529px;
@@ -2577,34 +2608,31 @@ p {
       margin: auto;
       position: relative;
       top: 100px; }
-  .img_logo_invitation {
-    position: relative;
+  .invitationInstagram {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
     margin: auto;
-    top: 100px;
-    left: 70px; }
-  .text_logo_invitation {
     position: relative;
+    top: 204px; }
+  .invitationText3 {
+    width: 165px;
     margin: auto;
-    display: inline;
-    top: 125px;
-    left: 62px;
-    color: #FFF;
-    text-align: center;
-    font-family: "Raleway";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; }
-  .text1_logo_invitation {
     position: relative;
-    margin: auto;
-    display: inline;
-    top: 125px;
-    left: 62px;
-    color: #FFF;
-    text-align: center;
-    font-family: Croissant One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; } }
+    height: 31px;
+    top: 260px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
+    .invitationText3 a {
+      color: #DF4F89;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      position: relative;
+      top: -3px;
+      left: 20px; } }
