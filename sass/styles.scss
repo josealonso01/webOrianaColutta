@@ -3011,303 +3011,341 @@ p {
 }
 
 
-@media (max-width: 767px) {
-    .container-date {
-        padding-top: 125px;
 
-        h3 {
-            color      : #E7C78F;
-            text-align : center;
-            font-family: Arvo;
-            font-size  : 40px;
-            font-style : normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-    }
+.container-date {
+    padding-top: 125px;
 
-    section.cuenta-regresiva .box-aros {
-        margin-top   : 100px;
-        margin-bottom: 100px;
-        width        : 276px;
-        height       : 276px;
-        flex-shrink  : 0;
-        border-radius: 276px;
-        background   : rgba(223, 79, 137, 0.90);
-        box-shadow   : 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
-
-        .box-circulo {
-            span.falta {
-                position   : relative;
-                top        : -40px;
-                color      : #FFF;
-                text-align : center;
-                font-family: "Raleway";
-                font-size  : 32px;
-                font-style : normal;
-                font-weight: 400;
-                line-height: normal;
-            }
-        }
-    }
-
-    section.cuenta-regresiva .reloj-col {
-        width       : 25%;
-        border-right: 1px solid rgba(255, 255, 255, 0.27);
-        float       : left;
-    }
-
-    section.cuenta-regresiva .reloj-col span.number {
-        display    : inline-block;
-        width      : 100%;
-        color      : #FFF;
+    h3 {
+        color      : #E7C78F;
         text-align : center;
-        font-family: "Raleway";
-        font-size  : 32px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    section.cuenta-regresiva .reloj-col span.time {
-        color      : #FFF;
-        text-align : center;
-        font-family: "Raleway";
-        font-size  : 16px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    section.ceremonia-fiesta .info-col .info-box h6 {
-        margin-top : 25px;
-        color      : #DF4F89;
-        text-align : center;
-        font-family: "Raleway";
-        font-size  : 24px;
-        font-style : normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    section.ceremonia-fiesta .info-col .info-box p {
-        color      : #DF4F89;
-        text-align : center;
-        font-family: "Raleway";
-        font-size  : 20px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: normal;
-        padding    : 15px;
-    }
-
-    section.ceremonia-fiesta .info-col .info-box a.boton {
-        width        : 216px;
-        height       : 46px;
-        flex-shrink  : 0;
-        border-radius: 23px;
-        background   : #E7C78F;
-        color        : #FFF;
-        text-align   : center;
-        font-family  : "Raleway";
-        font-size    : 16px;
-        font-style   : normal;
-        font-weight  : 400;
-        line-height  : normal;
-        padding      : 12px;
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    }
-
-    section.ceremonia-fiesta .info-col .info-box button.boton {
-        width        : 216px;
-        height       : 46px;
-        flex-shrink  : 0;
-        border-radius: 23px;
-        background   : #E7C78F;
-        color        : #FFF;
-        text-align   : center;
-        font-family  : "Raleway";
-        font-size    : 16px;
-        font-style   : normal;
-        font-weight  : 400;
-        line-height  : normal;
-        padding      : 12px;
-        border: none;
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    }
-
-
-    .carousel_mobile_invitation {
-        width           : 100%;
-        height          : 1013px;
-        flex-shrink     : 0;
-        background-color: black;
-    }
-
-    .portfolio-content-invitation {
-        margin-bottom: 50px;
-
-        img {
-            width      : 100%;
-            height     : 180px;
-            flex-shrink: 0;
-        }
-    }
-
-    .addEventP {
-        color      : #FFF;
-        text-align : center;
-        font-family: "Raleway";
-        font-size  : 16px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: normal;
-        margin     : auto;
-    }
-
-    .portfolio-area-invitation {
-        width              : 100%;
-        height             : 142px;
-        flex-shrink        : 0;
-        text-align         : center;
-        background-image   : url("../assets/images/confeti-derramando-botella-champan-fiesta\ 1.png");
-        background-position: center;
-        background-repeat  : no-repeat;
-        background-size    : cover;
-    }
-
-    .sub-title-invitation {
-        color      : #FFF;
-        text-align : center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Croissant One;
+        font-family: Arvo;
         font-size  : 40px;
         font-style : normal;
-        font-weight: 400;
-        line-height: normal;
-        width      : 295px;
-        margin     : auto;
-        padding    : 26px;
-        height     : 59px;
-    }
-
-    .contact-area-invitation {
-        width        : 228px;
-        height       : 260px;
-        flex-shrink  : 0;
-        border-radius: 25px;
-        background   : #FFF;
-        margin       : auto;
-        margin-top   : 80px;
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    }
-
-    .contact-invitation-box2 {
-        width        : 228px;
-        height       : 177px;
-        border-radius: 25px;
-        background   : #FFF;
-        margin       : auto;
-        margin-top   : 80px;
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    }
-
-    .contact-invitation-box3 {
-        width        : 228px;
-        height       : 285px;
-        flex-shrink  : 0;
-        border-radius: 25px;
-        background   : #FFF;
-        margin       : auto;
-        margin-top   : 80px;
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    }
-
-    .contactText-invitation {
-        color      : #DF4F89;
-        text-align : center;
-        font-family: "Raleway";
-        font-size  : 24px;
-        font-style : normal;
         font-weight: 700;
         line-height: normal;
-        padding-top: 30px;
-
-
     }
+}
+
+section.cuenta-regresiva .box-aros {
+    margin-top   : 100px;
+    margin-bottom: 100px;
+    width        : 276px;
+    height       : 276px;
+    flex-shrink  : 0;
+    border-radius: 276px;
+    background   : rgba(223, 79, 137, 0.90);
+    box-shadow   : 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+
+    .box-circulo {
+        span.falta {
+            position   : relative;
+            top        : -40px;
+            color      : #FFF;
+            text-align : center;
+            font-family: "Raleway";
+            font-size  : 32px;
+            font-style : normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+section.cuenta-regresiva .reloj-col {
+    width       : 25%;
+    border-right: 1px solid rgba(255, 255, 255, 0.27);
+    float       : left;
+}
+
+section.cuenta-regresiva .reloj-col span.number {
+    display    : inline-block;
+    width      : 100%;
+    color      : #FFF;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 32px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section.cuenta-regresiva .reloj-col span.time {
+    color      : #FFF;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section.ceremonia-fiesta .info-col .info-box h6 {
+    margin-top : 25px;
+    color      : #DF4F89;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 24px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section.ceremonia-fiesta .info-col .info-box p {
+    color      : #DF4F89;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 20px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    padding    : 15px;
+}
+
+section.ceremonia-fiesta .info-col .info-box a.boton {
+    width        : 216px;
+    height       : 46px;
+    flex-shrink  : 0;
+    border-radius: 23px;
+    background   : #E7C78F;
+    color        : #FFF;
+    text-align   : center;
+    font-family  : "Raleway";
+    font-size    : 16px;
+    font-style   : normal;
+    font-weight  : 400;
+    line-height  : normal;
+    padding      : 12px;
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+}
+
+section.ceremonia-fiesta .info-col .info-box button.boton {
+    width        : 216px;
+    height       : 46px;
+    flex-shrink  : 0;
+    border-radius: 23px;
+    background   : #E7C78F;
+    color        : #FFF;
+    text-align   : center;
+    font-family  : "Raleway";
+    font-size    : 16px;
+    font-style   : normal;
+    font-weight  : 400;
+    line-height  : normal;
+    padding      : 12px;
+    border       : none;
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+}
 
 
+.carousel_mobile_invitation {
+    width           : 100%;
+    height          : 1013px;
+    flex-shrink     : 0;
+    background-color: black;
+}
 
-    .question {
-        width      : 160px;
-        height     : 56px;
+.portfolio-content-invitation {
+    margin-bottom: 50px;
+
+    img {
+        width      : 100%;
+        height     : 180px;
         flex-shrink: 0;
-        color      : #DF4F89;
+    }
+}
+
+.addEventP {
+    color      : #FFF;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    margin     : auto;
+}
+
+.portfolio-area-invitation {
+    width              : 100%;
+    height             : 142px;
+    flex-shrink        : 0;
+    text-align         : center;
+    background-image   : url("../assets/images/confeti-derramando-botella-champan-fiesta\ 1.png");
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.sub-title-invitation {
+    color      : #FFF;
+    text-align : center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Croissant One;
+    font-size  : 40px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    width      : 295px;
+    margin     : auto;
+    padding    : 26px;
+    height     : 59px;
+}
+
+.contact-area-invitation {
+    width        : 228px;
+    height       : 260px;
+    flex-shrink  : 0;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+}
+
+.contact-invitation-box2 {
+    width        : 228px;
+    height       : 177px;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+}
+
+.contact-invitation-box3 {
+    width        : 228px;
+    height       : 285px;
+    flex-shrink  : 0;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+}
+
+.contactText-invitation {
+    color      : #DF4F89;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 24px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+
+
+}
+
+
+
+.question {
+    width      : 160px;
+    height     : 56px;
+    flex-shrink: 0;
+    color      : #DF4F89;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    margin     : auto;
+    margin-top : 40px;
+}
+
+.songSuggest {
+    width        : 187px;
+    height       : 41px;
+    flex-shrink  : 0;
+    border-radius: 23px;
+    background   : rgba(223, 79, 137, 0.88);
+    /* shadow */
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+
+    p {
+        color      : #FFF;
         text-align : center;
-        font-family: "Raleway";
+        font-family: Raleway;
         font-size  : 16px;
         font-style : normal;
         font-weight: 400;
         line-height: normal;
-        margin     : auto;
-        margin-top : 40px;
+        padding    : 10px;
+
     }
+}
 
-    .songSuggest {
-        width        : 187px;
-        height       : 41px;
-        flex-shrink  : 0;
-        border-radius: 23px;
-        background   : rgba(223, 79, 137, 0.88);
-        /* shadow */
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+.invitation-name {
+    margin         : auto;
+    position       : relative;
+    display        : flex;
+    top            : 135px;
+    flex-direction : row;
+    flex-wrap      : nowrap;
+    justify-content: center;
+    align-items    : center;
+}
 
-        p {
-            color      : #FFF;
-            text-align : center;
-            font-family: Raleway;
-            font-size  : 16px;
-            font-style : normal;
-            font-weight: 400;
-            line-height: normal;
-            padding    : 10px;
+.img_logo_invitation {
+    top     : -7px;
+    position: relative;
+}
 
-        }
-    }
+.text_logo_invitation {
+    color      : #FFF;
+    text-align : center;
+    font-family: "Raleway";
+    font-size  : 64px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: normal;
 
-    .invitation-name {
-        margin         : auto;
-        position       : relative;
-        display        : flex;
-        top            : 135px;
-        flex-direction : row;
-        flex-wrap      : nowrap;
-        justify-content: center;
-        align-items    : center;
-    }
+}
 
-    .img_logo_invitation {
-        top     : -7px;
-        position: relative;
-    }
+.text1_logo_invitation {
+    color      : #FFF;
+    text-align : center;
+    font-family: Croissant One;
+    font-size  : 64px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
 
-    .text_logo_invitation {
+}
+
+.footer-invitation {
+    width            : 100%;
+    height           : 540px;
+    flex-shrink      : 0;
+    background-image : url('../assets/images/pexels-cottonbro-studio-3402578.png');
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+    margin-top       : 90px;
+
+    .invitationText1 {
+        width      : 149px;
+        height     : 53px;
+        position   : relative;
+        top        : 60px;
         color      : #FFF;
         text-align : center;
-        font-family: "Raleway";
-        font-size  : 64px;
+        font-family: Raleway;
+        font-size  : 24px;
         font-style : normal;
         font-weight: 700;
         line-height: normal;
-
+        margin     : auto;
     }
 
-    .text1_logo_invitation {
+
+    .invitationText2 {
+        width      : 237px;
+        height     : 83px;
         color      : #FFF;
         text-align : center;
         font-family: Croissant One;
@@ -3315,82 +3353,43 @@ p {
         font-style : normal;
         font-weight: 400;
         line-height: normal;
-
-    }
-
-    .footer-invitation {
-        width            : 100%;
-        height           : 540px;
-        flex-shrink      : 0;
-        background-image : url('../assets/images/pexels-cottonbro-studio-3402578.png');
-        background-repeat: no-repeat;
-        background-size  : 100% 100%;
-        margin-top       : 90px;
-
-        .invitationText1 {
-            width      : 149px;
-            height     : 53px;
-            position   : relative;
-            top        : 60px;
-            color      : #FFF;
-            text-align : center;
-            font-family: Raleway;
-            font-size  : 24px;
-            font-style : normal;
-            font-weight: 700;
-            line-height: normal;
-            margin     : auto;
-        }
-
-
-        .invitationText2 {
-            width      : 237px;
-            height     : 83px;
-            color      : #FFF;
-            text-align : center;
-            font-family: Croissant One;
-            font-size  : 64px;
-            font-style : normal;
-            font-weight: 400;
-            line-height: normal;
-            margin     : auto;
-            position   : relative;
-            top        : 100px;
-        }
-    }
-
-    .invitationInstagram {
-        width      : 46px;
-        height     : 46px;
-        flex-shrink: 0;
         margin     : auto;
         position   : relative;
-        top        : 204px;
+        top        : 100px;
     }
+}
 
-    .invitationText3 {
-        width        : 165px;
-        margin       : auto;
-        position     : relative;
-        height       : 31px;
-        top          : 260px;
-        flex-shrink  : 0;
-        border-radius: 22px;
-        background   : rgba(255, 255, 255, 0.8);
-        box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+.invitationInstagram {
+    width      : 46px;
+    height     : 46px;
+    flex-shrink: 0;
+    margin     : auto;
+    position   : relative;
+    top        : 204px;
+}
 
-        a {
-            color      : #DF4F89;
-            text-align : center;
-            font-family: Raleway;
-            font-size  : 16px;
-            font-style : normal;
-            font-weight: 400;
-            line-height: normal;
-            position   : relative;
-            top        : -3px;
-            left       : 20px;
+.invitationText3 {
+    width        : 165px;
+    margin       : auto;
+    position     : relative;
+    height       : 31px;
+    top          : 260px;
+    flex-shrink  : 0;
+    border-radius: 22px;
+    background   : rgba(255, 255, 255, 0.8);
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
 
-        }
+    a {
+        color      : #DF4F89;
+        text-align : center;
+        font-family: Raleway;
+        font-size  : 16px;
+        font-style : normal;
+        font-weight: 400;
+        line-height: normal;
+        position   : relative;
+        top        : -3px;
+        left       : 20px;
+
     }
 }
