@@ -3011,12 +3011,17 @@ p {
 }
 
 
+.cuenta-regresiva {
+    background-image : url('../assets/images/pexels-cottonbro-studio-4684169\ 1.png');
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+}
 
 .container-date {
     padding-top: 125px;
 
     h3 {
-        color      : #E7C78F;
+        color      : #9C9A9D;
         text-align : center;
         font-family: Arvo;
         font-size  : 40px;
@@ -3077,6 +3082,13 @@ section.cuenta-regresiva .reloj-col span.time {
     font-style : normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.ceremonia-fiesta {
+    background-image : url('../assets/images/piernas-mujer-zapatos-plateados-fiesta.png');
+    background-repeat: no-repeat;
+    padding-bottom   : 75px;
+    background-size  : 100%;
 }
 
 section.ceremonia-fiesta .info-col .info-box h6 {
@@ -3325,7 +3337,6 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     background-image : url('../assets/images/pexels-cottonbro-studio-3402578.png');
     background-repeat: no-repeat;
     background-size  : 100% 100%;
-    margin-top       : 90px;
 
 
     .invitationText1 {
@@ -3389,7 +3400,6 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
         font-weight: 400;
         line-height: normal;
         position   : relative;
-        top        : -3px;
         left       : 20px;
 
     }
