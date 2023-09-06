@@ -18,6 +18,16 @@
     src        : url("../assets/fonts/Raleway-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Nico Moji";
+    src        : url("../assets/fonts/NicoMoji-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Concert One";
+    src        : url("../assets/fonts/ConcertOne-Regular.ttf");
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -3153,7 +3163,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 .carousel_mobile_invitation {
     width           : 100%;
-    height          : 1013px;
+    height          : 1074px;
     flex-shrink     : 0;
     background-color: black;
 }
@@ -3292,42 +3302,74 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     }
 }
 
-.invitation-name {
-    margin         : auto;
-    position       : relative;
-    display        : flex;
-    top            : 135px;
-    flex-direction : row;
-    flex-wrap      : nowrap;
-    justify-content: center;
-    align-items    : center;
-}
 
 .img_logo_invitation {
     top     : -7px;
     position: relative;
 }
 
-.text_logo_invitation {
-    color      : #FFF;
-    text-align : center;
-    font-family: "Raleway";
-    font-size  : 64px;
-    font-style : normal;
-    font-weight: 700;
-    line-height: normal;
-
-}
 
 .text1_logo_invitation {
     color      : #FFF;
     text-align : center;
-    font-family: Croissant One;
-    font-size  : 64px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Nico Moji";
+    font-size  : 128px;
     font-style : normal;
     font-weight: 400;
     line-height: normal;
+    width      : 300px;
+    height     : 128px;
+    margin     : auto;
+    top        : 119px;
+    position   : relative;
+}
 
+.text2_logo_invitation {
+    color      : #FFF;
+    text-align : center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Nico Moji";
+    font-size  : 128px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    width      : 300px;
+    height     : 92px;
+    margin     : auto;
+    top        : 119px;
+    position   : relative;
+}
+
+.text3_logo_invitation {
+    color      : #FFF;
+    text-align : center;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    font-family: Concert One;
+    font-size  : 55px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    width      : 300px;
+    height     : 92px;
+    margin     : auto;
+    top        : 380px;
+    position   : relative;
+}
+
+
+.svgInvitation {
+    width          : 81.597px;
+    height         : 81.597px;
+    flex-shrink    : 0;
+    position       : relative;
+    margin         : auto;
+    display        : flex;
+    justify-content: center;
+    top            : 300px;
+    align-items    : center;
+    align-content  : center;
+    flex-direction : column;
 }
 
 .footer-invitation {
