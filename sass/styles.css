@@ -22,6 +22,10 @@
   font-family: "Concert One";
   src: url("../assets/fonts/ConcertOne-Regular.ttf"); }
 
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../assets/fonts/Rajdhani-Regular.ttf"); }
+
 html,
 body {
   overflow-x: hidden; }
@@ -2378,17 +2382,15 @@ section.cuenta-regresiva .box-aros {
   height: 276px;
   flex-shrink: 0;
   border-radius: 276px;
-  background: rgba(223, 79, 137, 0.9);
+  background: #E545AE;
   box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25); }
   section.cuenta-regresiva .box-aros .box-circulo span.falta {
-    position: relative;
-    top: -40px;
     color: #FFF;
     text-align: center;
-    font-family: "Raleway";
-    font-size: 32px;
+    font-family: Rajdhani;
+    font-size: 64px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal; }
 
 section.cuenta-regresiva .reloj-col {
@@ -2416,6 +2418,24 @@ section.cuenta-regresiva .reloj-col span.time {
   font-weight: 400;
   line-height: normal; }
 
+div#addeventatc1 {
+  border-radius: 23px;
+  background: #9C9A9D;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  width: 216px;
+  height: 46px;
+  flex-shrink: 0;
+  padding: 12px;
+  margin: auto; }
+  div#addeventatc1 h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; }
+
 .ceremonia-fiesta {
   background-image: url("../assets/images/piernas-mujer-zapatos-plateados-fiesta.png");
   background-repeat: no-repeat;
@@ -2424,21 +2444,21 @@ section.cuenta-regresiva .reloj-col span.time {
 
 section.ceremonia-fiesta .info-col .info-box h6 {
   margin-top: 25px;
-  color: #DF4F89;
+  color: #E545AE;
   text-align: center;
-  font-family: "Raleway";
-  font-size: 24px;
+  font-family: Concert One;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal; }
 
 section.ceremonia-fiesta .info-col .info-box p {
-  color: #DF4F89;
+  color: #E545AE;
   text-align: center;
-  font-family: "Raleway";
+  font-family: Rajdhani;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   padding: 15px; }
 
@@ -2447,13 +2467,14 @@ section.ceremonia-fiesta .info-col .info-box a.boton {
   height: 46px;
   flex-shrink: 0;
   border-radius: 23px;
-  background: #E7C78F;
+  background: #9C9A9D;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: #FFF;
   text-align: center;
-  font-family: "Raleway";
+  font-family: Rajdhani;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   padding: 12px;
   /* shadow */
@@ -2464,24 +2485,27 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   height: 46px;
   flex-shrink: 0;
   border-radius: 23px;
-  background: #E7C78F;
+  background: #9C9A9D;
+  box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
   color: #FFF;
   text-align: center;
-  font-family: "Raleway";
+  font-family: Rajdhani;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   padding: 12px;
   border: none;
   /* shadow */
   box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
 
-.carousel_mobile_invitation {
-  width: 100%;
+.carousel-item.active.invitation {
   height: 1074px;
-  flex-shrink: 0;
-  background-color: black; }
+  background: rgba(216, 50, 143, 0.4); }
+
+.active.carousel-item.carousel_mobile_invitation img {
+  width: 100%;
+  height: 1074px; }
 
 .portfolio-content-invitation {
   margin-bottom: 50px; }
@@ -2505,7 +2529,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   height: 142px;
   flex-shrink: 0;
   text-align: center;
-  background-image: url("../assets/images/confeti-derramando-botella-champan-fiesta 1.png");
+  background-image: url("../assets/images/Imagen de WhatsApp 2023-09-05 a las 16.31 2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -2514,7 +2538,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   color: #FFF;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Croissant One;
+  font-family: Nico Moji;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -2522,7 +2546,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   width: 295px;
   margin: auto;
   padding: 26px;
-  height: 59px; }
+  height: 87px; }
 
 .contact-area-invitation {
   width: 228px;
