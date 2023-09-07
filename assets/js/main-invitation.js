@@ -1,10 +1,9 @@
 $(function () {
   ('use strict');
 
+ /*  //music
 
-  //music 
-  
-  /* var playBtn = document.getElementById('play');
+  var playBtn = document.getElementById('play');
   var audio = document.getElementById('audio');
   var stopbtn = document.getElementById('stop');
 
@@ -19,7 +18,7 @@ $(function () {
 
   playBtn.addEventListener('click', playSound, false);
 
-  stopbtn.addEventListener('click', stopSound, false); */
+  stopbtn.addEventListener('click', stopSound, false);  */
 
   //Cuenta regresiva
 
@@ -115,8 +114,7 @@ $(function () {
     });
   });
 
-
-  var pos1 = window.pageYOffset;
+  /* var pos1 = window.pageYOffset;
   window.onscroll = function () {
     var pos2 = window.pageYOffset;
     if (pos1 > pos2) {
@@ -126,9 +124,9 @@ $(function () {
       document.getElementById('navbarEight').style.top = '-1000px';
     }
     pos1 = pos2;
-  };
+  }; */
 
-  $(window).scroll(function () {
+/*   $(window).scroll(function () {
     if ($(this).scrollTop() > 20) {
       $('#navbarButton').fadeOut();
     } else {
@@ -144,7 +142,7 @@ $(function () {
     },
     false
   );
-
+ */
   //===== Sidebar
 
   $('[href="#side-menu-right"], .overlay-right').on(

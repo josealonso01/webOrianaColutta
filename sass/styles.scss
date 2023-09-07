@@ -3248,47 +3248,49 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 }
 
 .contact-area-invitation {
-    width        : 228px;
-    height       : 260px;
-    flex-shrink  : 0;
-    border-radius: 25px;
-    background   : #FFF;
-    margin       : auto;
-    margin-top   : 80px;
+    width           : 228px;
+    height          : 260px;
+    flex-shrink     : 0;
+    border-radius   : 25px;
+    background      : #FFF;
+    margin          : auto;
+    margin-top      : 80px;
     /* shadow */
-    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    background-image: url("../assets/images/Rectangle\ 4.png");
 }
 
 .contact-invitation-box2 {
-    width        : 228px;
-    height       : 177px;
-    border-radius: 25px;
-    background   : #FFF;
-    margin       : auto;
-    margin-top   : 80px;
-    /* shadow */
-    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    width           : 228px;
+    height          : 177px;
+    border-radius   : 25px;
+    background      : #FFF;
+    margin          : auto;
+    margin-top      : 80px;
+    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    background-image: url("../assets/images/Rectangle\ 6.png");
 }
 
 .contact-invitation-box3 {
-    width        : 228px;
-    height       : 285px;
-    flex-shrink  : 0;
-    border-radius: 25px;
-    background   : #FFF;
-    margin       : auto;
-    margin-top   : 80px;
-    /* shadow */
-    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    width           : 228px;
+    height          : 260px;
+    flex-shrink     : 0;
+    border-radius   : 25px;
+    background      : #FFF;
+    margin          : auto;
+    margin-top      : 80px;
+    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    background-image: url("../assets/images/Rectangle\ 7.png");
 }
 
 .contactText-invitation {
-    color      : #DF4F89;
+    color      : #FFF;
     text-align : center;
-    font-family: "Raleway";
-    font-size  : 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Concert One;
+    font-size  : 32px;
     font-style : normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     padding-top: 30px;
 
@@ -3298,18 +3300,54 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 
 .question {
-    width      : 160px;
-    height     : 56px;
+    width      : 214px;
+    height     : 72px;
     flex-shrink: 0;
-    color      : #DF4F89;
+    color      : #FFF;
     text-align : center;
-    font-family: "Raleway";
-    font-size  : 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Rajdhani;
+    font-size  : 20px;
     font-style : normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     margin     : auto;
     margin-top : 40px;
+}
+
+.question2 {
+    color      : #FFF;
+    text-align : center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Rajdhani;
+    font-size  : 20px;
+    font-style : normal;
+    font-weight: 500;
+    line-height: normal;
+    width      : 160px;
+    height     : 56px;
+    flex-shrink: 0;
+    margin     : auto;
+}
+
+.question3 {
+    color          : #FFF;
+    text-shadow    : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family    : Rajdhani;
+    font-size      : 16px;
+    font-style     : normal;
+    font-weight    : 700;
+    line-height    : normal;
+    display        : flex;
+    width          : 195px;
+    height         : 122px;
+    flex-direction : column;
+    flex-shrink    : 0;
+    margin         : auto;
+    align-items    : center;
+    align-content  : center;
+    margin-top     : 30px;
+    justify-content: center;
 }
 
 .songSuggest {
@@ -3317,17 +3355,16 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     height       : 41px;
     flex-shrink  : 0;
     border-radius: 23px;
-    background   : rgba(223, 79, 137, 0.88);
-    /* shadow */
+    background   : #FFF;
     box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
 
     p {
-        color      : #FFF;
+        color      : #E545AE;
         text-align : center;
-        font-family: Raleway;
+        font-family: Rajdhani;
         font-size  : 16px;
         font-style : normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         padding    : 10px;
 
@@ -3406,21 +3443,22 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 .footer-invitation {
     width            : 100%;
-    height           : 740px;
+    height           : 644px;
     flex-shrink      : 0;
-    background-image : url('../assets/images/pexels-cottonbro-studio-3402578.png');
+    background-image : url('../assets/images/Imagen\ de\ WhatsApp\ 2023-09-06\ a\ las\ 15.27\ 1.png');
     background-repeat: no-repeat;
     background-size  : 100% 100%;
 
 
     .invitationText1 {
-        width      : 149px;
-        height     : 53px;
+        width      : 195px;
+        height     : 27px;
         position   : relative;
-        top        : 60px;
+        top        : 89px;
         color      : #FFF;
         text-align : center;
-        font-family: Raleway;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Rajdhani;
         font-size  : 24px;
         font-style : normal;
         font-weight: 700;
@@ -3434,47 +3472,69 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
         height     : 83px;
         color      : #FFF;
         text-align : center;
-        font-family: Croissant One;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Concert One;
         font-size  : 64px;
         font-style : normal;
         font-weight: 400;
         line-height: normal;
         margin     : auto;
         position   : relative;
-        top        : 100px;
+        top        : 123px;
+    }
+
+    .invitationText {
+        width      : 232px;
+        height     : 52px;
+        flex-shrink: 0;
+        color      : #FFF;
+        text-align : center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Rajdhani;
+        font-size  : 48px;
+        font-style : normal;
+        font-weight: 700;
+        line-height: normal;
+        margin     : auto;
+        position   : relative;
+        top        : 322px;
     }
 }
 
 .invitationInstagram {
-    width      : 46px;
-    height     : 46px;
+    width      : 36.24px;
+    height     : 36.24px;
     flex-shrink: 0;
     margin     : auto;
     position   : relative;
-    top        : 204px;
+    top        : 209px;
 }
 
 .invitationText3 {
     width        : 165px;
+    height       : 31px;
+    flex-shrink  : 0;
     margin       : auto;
     position     : relative;
-    height       : 31px;
-    top          : 260px;
+    top          : 256px;
     flex-shrink  : 0;
     border-radius: 22px;
-    background   : rgba(255, 255, 255, 0.8);
+    background   : rgba(255, 255, 255, 0.80);
     box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
 
     a {
-        color      : #DF4F89;
+        color      : #E545AE;
         text-align : center;
-        font-family: Raleway;
+        font-family: Rajdhani;
         font-size  : 16px;
         font-style : normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: normal;
-        position   : relative;
+        position   : absolute;
+        margin     : auto;
+        padding    : 5px;
         left       : 20px;
+
 
     }
 }
