@@ -3025,6 +3025,19 @@ p {
     background-color: #DF4F89;
 }
 
+.audioDiv {
+    height: 10px;
+}
+
+audio {
+    width : 100%;
+    height: 25px;
+
+    &::-webkit-media-controls-enclosure {
+        border-radius: 1px;
+        background   : #E545AE
+    }
+}
 
 .cuenta-regresiva {
     background-image : url('../assets/images/pexels-cottonbro-studio-4684169\ 1.png');
