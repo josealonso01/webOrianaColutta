@@ -2605,6 +2605,9 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   line-height: normal;
   padding-top: 25px; }
 
+p.contactText-invitation.dressCode.text-center.wow.fadeInUp {
+  padding-top: 40px; }
+
 .question {
   width: 214px;
   height: 42px;
