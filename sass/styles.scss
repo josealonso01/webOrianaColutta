@@ -3265,28 +3265,32 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 }
 
 .contact-area-invitation {
-    width           : 228px;
-    height          : 204px;
-    flex-shrink     : 0;
-    flex-shrink     : 0;
-    border-radius   : 25px;
-    background      : #FFF;
-    margin          : auto;
-    margin-top      : 80px;
-    /* shadow */
-    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    background-image: url("../assets/images/Rectangle\ 4.png");
+    width        : 228px;
+    height       : 204px;
+    flex-shrink  : 0;
+    flex-shrink  : 0;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    border-radius: 25px;
+    background   : url("../assets/images/Rectangle\ 4.png"),
+        lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .contact-invitation-box2 {
-    width           : 228px;
-    height          : 177px;
-    border-radius   : 25px;
-    background      : #FFF;
-    margin          : auto;
-    margin-top      : 80px;
-    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    background-image: url("../assets/images/Rectangle\ 6.png");
+    width        : 228px;
+    height       : 177px;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+    border-radius: 25px;
+    background   : url("../assets/images/Rectangle\ 6.png"),
+        lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .contact-invitation-box3 {
