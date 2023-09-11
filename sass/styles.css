@@ -2444,10 +2444,10 @@ div#addeventatc1 {
   div#addeventatc1 h2 {
     color: #FFF;
     text-align: center;
-    font-family: Rajdhani;
+    font-family: Lilita One;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal; }
 
 .ceremonia-fiesta {
@@ -2485,13 +2485,12 @@ section.ceremonia-fiesta .info-col .info-box a.boton {
   box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: #FFF;
   text-align: center;
-  font-family: Rajdhani;
+  font-family: Lilita One;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   padding: 12px;
-  /* shadow */
   box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
 
 section.ceremonia-fiesta .info-col .info-box button.boton {
@@ -2503,14 +2502,13 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
   box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
   color: #FFF;
   text-align: center;
-  font-family: Rajdhani;
+  font-family: Lilita One;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   padding: 12px;
   border: none;
-  /* shadow */
   box-shadow: 4px 4px 10px 0px rgba(223, 79, 137, 0.24); }
 
 .carousel-item.active.invitation {
