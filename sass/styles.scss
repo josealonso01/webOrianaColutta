@@ -3312,7 +3312,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     font-style : normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 15px;
+    padding-top: 25px;
 
 
 }
@@ -3375,11 +3375,13 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 .songSuggest {
     width        : 187px;
-    height       : 41px;
-    flex-shrink  : 0;
-    border-radius: 23px;
-    background   : #FFF;
-    box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
+height       : 41px;
+flex-shrink  : 0;
+position     : relative;
+border-radius: 23px;
+top          : -10px;
+background   : #FFF;
+box-shadow   : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
 
     p {
         color      : #E545AE;
