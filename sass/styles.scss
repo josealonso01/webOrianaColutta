@@ -3268,7 +3268,8 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 .contact-area-invitation {
     width           : 228px;
-    height          : 260px;
+    height          : 204px;
+    flex-shrink     : 0;
     flex-shrink     : 0;
     border-radius   : 25px;
     background      : #FFF;
@@ -3322,18 +3323,19 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 
 .question {
     width      : 214px;
-    height     : 72px;
+    height     : 42px;
     flex-shrink: 0;
     color      : #FFF;
     text-align : center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Rajdhani;
-    font-size  : 20px;
+    font-family: Lilita One;
+    font-size  : 16px;
     font-style : normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     margin     : auto;
-    margin-top : 40px;
+    margin-top : 13px;
+
 }
 
 .question2 {
@@ -3349,7 +3351,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     height     : 56px;
     flex-shrink: 0;
     position   : relative;
-    top        : 13px;
+    top        : 16px;
     margin     : auto;
 }
 
@@ -3369,7 +3371,7 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     margin         : auto;
     align-items    : center;
     align-content  : center;
-    margin-top     : 15px;
+    margin-top     : 20px;
     justify-content: center;
 }
 
@@ -3384,10 +3386,10 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     p {
         color      : #E545AE;
         text-align : center;
-        font-family: Rajdhani;
+        font-family: Lilita One;
         font-size  : 16px;
         font-style : normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: normal;
         padding    : 10px;
 
