@@ -33,6 +33,12 @@
     src        : url("../assets/fonts/Rajdhani-Regular.ttf");
 }
 
+
+@font-face {
+    font-family: "Lilita One";
+    src        : url("../assets/fonts/LilitaOne-Regular.ttf");
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -3285,15 +3291,17 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 }
 
 .contact-invitation-box3 {
-    width           : 228px;
-    height          : 260px;
-    flex-shrink     : 0;
-    border-radius   : 25px;
-    background      : #FFF;
-    margin          : auto;
-    margin-top      : 80px;
-    box-shadow      : 4px 4px 10px 0px rgba(223, 79, 137, 0.24);
-    background-image: url("../assets/images/Rectangle\ 7.png");
+    width        : 228px;
+    height       : 206px;
+    flex-shrink  : 0;
+    border-radius: 25px;
+    background   : #FFF;
+    margin       : auto;
+    margin-top   : 80px;
+    background   : url("../assets/images/Rectangle\ 7.png"),
+        lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .contactText-invitation {
@@ -3332,10 +3340,10 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
     color      : #FFF;
     text-align : center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Rajdhani;
-    font-size  : 20px;
+    font-family: Lilita One;
+    font-size  : 18px;
     font-style : normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     width      : 160px;
     height     : 56px;
@@ -3348,20 +3356,20 @@ section.ceremonia-fiesta .info-col .info-box button.boton {
 .question3 {
     color          : #FFF;
     text-shadow    : 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family    : Rajdhani;
-    font-size      : 16px;
+    font-family    : Lilita One;
+    font-size      : 18px;
     font-style     : normal;
-    font-weight    : 700;
+    font-weight    : 400;
     line-height    : normal;
     display        : flex;
-    width          : 195px;
-    height         : 122px;
+    width          : 141px;
+    height         : 96px;
     flex-direction : column;
     flex-shrink    : 0;
     margin         : auto;
     align-items    : center;
     align-content  : center;
-    margin-top     : 30px;
+    margin-top     : 15px;
     justify-content: center;
 }
 
